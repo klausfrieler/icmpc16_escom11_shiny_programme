@@ -1,0 +1,657 @@
+Day,Time (UTC),Strand,Room,Order,Theme,Authors,Title,Abstract ID & link,Country
+Wednesday,7,5,S,1,Introduction to music cognition (India Hub) (W),"Hegde, Shantala; Alluri, Vinoo",Introduction to music cognition (India Hub),NA,India
+Wednesday,8,1,K,1,Welcome Session,"Timmers, Renee and all conference organisers",Welcome to ICMPC16-ESCOM11,2031,UK
+Wednesday,8,1,1,2,Methods Innovation,"Wycisk, Yves; Kopiez, Reinhard; Bergner, Jakob; Sander, Kilian; Preihs, Stephan; Peissig, Jürgen; Platz, Friedrich",Bringing Confounding Variables to a HALT: Suggestions for the Controlled Us of Playback Devices in Internet Experiments,245,Germany
+Wednesday,8,1,1,3,Methods Innovation,"Harrison, Peter M. C.; Pausch, Viola; Sander, Killian; Höger, Frank; Frieler, Klaus; Müllensiefen, Daniel",psychTestR: A platform for individual differences research in music psychology,354,Germany
+Wednesday,8,2,2,1,Musicality,"Buren, Verena; Müllensiefen, Daniel; Roeske, Tina; Degé, Franziska",What makes a child musical?,318,Germany
+Wednesday,8,2,2,2,Musicality,"Correia, Ana Isabel; Vincenzi, Margherita; Vanzella, Patricia; Schellenberg, E. Glenn; Lima, César F.",Individual differences in musical ability among adults with no music training,724,Portugal
+Wednesday,8,3,3,1,Cross-culture,"Kim, You Jin; Ilari, Beatriz",Perceptions of emotional ornamentations in folksongs: A cross-cultural study,704,Korea
+Wednesday,8,3,3,2,Cross-culture,"Li, Marjorie; Ingram, Catherine; Thompson, William Forde; Davidson, Jane W.",Exploring Participatory Intercultural Music Engagement Within an Australia-Based Chinese Music Community,716,Germany
+Wednesday,9,1,K,1,Keynote,"Milne, Andrew J.; Smit, Eline A.; Sarvasy, Hannah; Dean, Roger T.; Weidemann, Gabrielle",Do psychoacoustic features predict the stability of intervals and triads in remote Papua New Guinean communities?,189,Australia
+Wednesday,10,1,Pa,1,Perception (P),"Frige, Shlomi",Musical response and prosody,334,Israel
+Wednesday,10,1,Pa,2,Perception (P),"Shuster, Omer; Goldstein, Michal N.; Granot, Roni",An Empirical Investigation Into the Cognitive and Physical Influences of Bass and Syncopation,278,Israel
+Wednesday,10,1,Pa,3,Perception (P),"Beveridge, Scott; Cano, Estefanía; Herff, Steffen A.",No one-size-fits-all: The influence of low-frequency equalisation on preference and sensorimotor synchronisation in music,486,NA
+Wednesday,10,1,Pa,4,Perception (P),"Sander, Kilian; Wycisk, Yves; Kopiez, Reinhard; Manca, Benedetto; Platz, Friedrich",Headphone and Loudspeaker Screening for web-based auditory Experiments: Suggestions for a reliable Estimation of Data Quality and Sample Size,246,Germany
+Wednesday,10,1,Pa,5,Perception (P),"Flannery, Maya B.; Woolhouse, Matthew H.",Music-Related Acoustic Features Predict Music Preference,591,Canada
+Wednesday,10,1,Pa,6,Perception: Physiology/Brain Activity (P),"Simon, Adèle; Bech, Søren; Østergaard, Jan; Loquet, Gérard",Auditory attention decoding during naturalistic music listening: A pilot study.,532,Denmark
+Wednesday,10,1,Pb,1,Perception: Physiology/Brain Activity (P),"Yeo, Myung Sun; Kim, Soo Ji",The Role of Musical Chord Sequence Cues on Gait- Related Brain Activity: An fMRI Case Study,504,Korea
+Wednesday,10,1,Pb,2,Perception: Physiology/Brain Activity (P),"Byron, Timothy P.; De Blasio, Frances M.; Barry, Robert J.",Investigating autonomic correlates of musical expectancies in a complex temporally unfolding musical stimulus,163,Australia
+Wednesday,10,2,Pb,3,Music Education (P),"Lin, Hsin-Rui; Kopiez, Reinhard; Müllensiefen, Daniel",The Role of Musical Training and Gender in the Development of Musical Ability of Secondary School Children,214,Canada
+Wednesday,10,2,Pb,4,Music Education (P),"Guseynova, Olga; Sayutkin, Yuriy",The Effectiveness of Memorizing Strategies Based On Learning Styles Applied To Piano Training Of Adult Beginners. Case Series,112,Turkey
+Wednesday,10,2,Pb,5,Music Education (P),"Gorbunova, Irina B.; Morozov, Sergey A.",On Teaching Visually Impaired Students in Russian Educational Institutions of Music with Using Music Computer Technologies,740,Russia
+Wednesday,10,2,Pb,6,Music Education and Informal Learning (P),"Prior, Helen M.",Music students' environment-related attitudes and behaviours before and after a teaching intervention,337,UK
+Wednesday,10,2,Pc,1,Music Education and Informal Learning (P),"Goopy, Jason",Shaping children’s identity work in and through daily singing-based music classes: A case study of an Australian single-sex school,569,Australia
+Wednesday,10,2,Pc,2,Music Education and Informal Learning (P),"Kawase, Satoshi; Kitabayashi, Yuriko",Music Teachers’ Views of Non-musical Abilities in Children Acquired through Musical Lessons: A Large- Scale Study of Non-cognitive Skills,289,Japan
+Wednesday,10,2,Pc,3,Music Education and Informal Learning (P),"Zhao, Luqian",Urban vs Rural: Chinese students' motivation towards musical learning,224,UK
+Wednesday,10,3,Pc,4,Emotion (P),"Kinghorn, Elizabeth; Randall, William",Rumination and the Affective Outcomes of Musical Engagement: An Experience-Sampling Study of Personal Music Listening,687,Canada
+Wednesday,10,3,Pc,5,Emotion (P),"Wang, Xinyue; Burger, Birgitta; Wöllner, Clemens",Perceiving emotions in tempo-manipulated biological motions,291,China
+Wednesday,10,3,Pc,6,Emotion (P),"Pais, Shally Sharin","The functions of music in animated short films - analysing the scores of The Skeleton Dance, Fox and The Whale and La Vieille Dame et les Pigeons.",138,Australia
+Wednesday,10,3,Pd,1,Emotion (P),"Ornoy, Eitan",Affective Responses to European Art Music by Israeli Arabs and Israeli Jews: A Cross-Ethnic Study,102,Israel
+Wednesday,10,3,Pd,2,Emotion (P),"Di Stefano, Nicola; Lo Presti, Daniela; Massaroni, Carlo; Keller, Flavio; Schena, Emiliano; Formica, Domenico",Behavioural and physiological responses of violinists playing excerpts of different difficulty and emotional expressivity,313,Italy
+Wednesday,10,3,Pd,3,Emotion: Felt Emotion/Music in Everyday Life (P),"Tan, Rachel; Ilari, Beatriz","Music-evoked autobiographical memories: Pop tunes, reminiscence bump, and nostalgia in adult listener",193,USA
+Wednesday,10,3,Pd,4,Emotion: Felt Emotion/Music in Everyday Life (P),"Mudarris, Mohammed A.; Schaefer, Rebecca S.",Dissociations between familiarity and preference ratings of music for healthy young and older adults.,347,Netherlands
+Wednesday,10,3,Pd,5,Emotion: Felt Emotion/Music in Everyday Life (P),"Loepthien, Tim; van den Tol, Annemieke; Hanser, Waldie; Leipold, Bernhard",Why do we regulate our emotions through music listening? Hedonic and instrumental motives in emotion regulation through music listening.,175,Germany
+Wednesday,10,3,Pd,6,Emotion: Felt Emotion/Music in Everyday Life (P),"Vincenzi, Margherita; Borella, Erika; De Beni, Rossana","Music and cognition: the effect of listening to music on mood and arousal, and cognitive performance in healthy aging",637,Italy
+Wednesday,10,3,Pe,1,Emotion: Music in Times of Crisis (P),"Onderdijk, Kelsey Esmé; Acar, Freya; Van Dyck, Edith",Making Music With Others During the COVID-19 Pandemic,298,Belgium
+Wednesday,10,3,Pe,2,Emotion: Music in Times of Crisis (P),"Coers, Marijn; Granot, Roni; Spitz, Daniel H.; Schaefer, Rebecca S.",Individual differences in use of music as emotional coping style in times of crisis,506,Netherlands
+Wednesday,10,3,Pe,3,Emotion: Piano Performance (P),"Ham, Ju Sung; Hong, You Jeong; Park, Jeong Mi; Park, Jong Hwa; Nam, Juhan; Lee, Kyogu",Communication of Emotion Modified by the Performer in Classical Piano Pieces,435,South Korea
+Wednesday,10,3,Pe,4,Emotion: Piano Performance (P),"Hassler, Miriam Charlotte; Gillner, Elisa",“Just the two of us“: The effects of gaze and identity cues on social presence and enjoyment of an audiovisual piano performance,352,Germany
+Wednesday,10,3,Pe,5,Emotion: Piano Performance (P),"Kim, Yoojin; Park, Jeongmi; Jeong, Dasaem; Kwon, Taegyun; Park, Jonghwa; Nam, Juhan",Emotion Classification and Analysis of Expressive Performances in Classical Piano Music,656,Korea
+Wednesday,10,4,Pf,1,New books (P),"Cohen, A., J., Russo, F. A., Ilari, B., Gudmundsdottir, H.R., Beynon, C., Ludke, K., M., Heydon, R., Fancourt, D.",Routledge Companion to Interdisciplinary Research in Singing,2001,NA
+Wednesday,10,4,Pf,2,New books (P),"Timmers, Renee; Bailes, Freya; Daffern, Helena","Together in Music: Coordination, Expression, Participation.",2002,NA
+Wednesday,10,4,Pf,3,New books (P),"Wanke, Riccardo","Sound in the Ecstatic-Materialist Perspective on Experimental Music. Routledge, Research on Music Series",2003,NA
+Wednesday,11,1,1,1,Methods Innovation,"Passarotto, Edoardo; Preckel, Franzis; Schneider, Michael; Müllensiefen, Daniel",Deliberate Practice in Music: Development and Psychometric Validation of a Standardized Measurement Instrument,390,Germany
+Wednesday,11,1,1,2,Methods Innovation,"MacGregor, Chloe Lara; Ruth, Nicolas; Müllensiefen, Daniel",The Musical Emotion Discrimination Task 2: Developing a large set of short musical clips to test the perception of emotions in music,490,United Kingdom
+Wednesday,11,1,1,3,Methods Innovation,"Micallef Grimaud, Annaliese; Eerola, Tuomas",How to explore a large cue-emotion space in music? A comparison of two approaches for emotions expressed by music.,383,Malta
+Wednesday,11,2,2,1,Interaction & Wellbeing,"Loaiza, Juan M.; Moran, Nikki; Timmers, Renee",4E cognition and decolonial goals converge in interpreting socio-functional uses of music,549,UK
+Wednesday,11,2,2,2,Interaction & Wellbeing,"Spiro, Neta; Sanfilippo, Katie Rose M.; Trahan, Tabitha; Schober, Michael F.",Shared understanding in music therapy improvisation: Four case studies,143,UK
+Wednesday,11,2,2,3,Interaction & Wellbeing,"Herbert, Ruth; Walduck, Jackie; Newman, Hannah; Shaughnessy, Nicola","Neurodiverse Worlds: Articulating the Subjective Experience of Autistic Girls Through Music, Sound and Movement",309,United Kingdom
+Wednesday,11,3,3,1,Musical Development,"Shaughnessy, Caitlin",Scaffolding Interactivity: The development of interactive behaviours during musical play for autistic children,478,United Kingdom
+Wednesday,11,3,3,2,Musical Development,"Wise, Karen J; Halpern, Andrea R","Identity, Attitude and Skill Changes Among Non-singers Learning to Sing",201,UK
+Wednesday,11,3,3,3,Musical Development,"Fiedler, Daniel; Hasselhorn, Johannes A.; Arens, A. Katrin; Frenzel, Anne C.",Validation of the Music Self-Perception Inventory (MUSPI-S) with German Students from Grades 7 to 9,233,Germany
+Wednesday,11,4,4,1,Rhythm & Memory,"Guthrie, Ian Evans",Functional Rhythm: Analytical pitfalls and terminological shortcomings,439,United States of America
+Wednesday,11,4,4,2,Rhythm & Memory,"Lin, Chia-Yuan; Falk, Simone; Dalla Bella, Simone; Rathcke, Tamara",On the role of listener’s musicality in motor entrainment with speech,577,Canada
+Wednesday,11,4,4,3,Rhythm & Memory,"Kantan, Prithvi Ravi; Spaich, Erika G.; Dahl, Sofia",Conveying Sit-to-Stand Kinematics Through Musical Sonification for Stroke Rehabilitation,581,Denmark
+Wednesday,11,7,W,1,Academic writing (BA),"Oldendaal, Albi",Academic writing session,2012,NA
+Wednesday,12,5,S,1,"MUSICOVID:
+coping through crisis with music (S)","Hansen, Niels Chr.; Wald-Fuhrmann, Melanie","Symposium: MUSICOVID‒coping through crisis with
+music",418,Denmark
+Wednesday,12,5,S,2,"MUSICOVID:
+coping through crisis with music (S)","Warrenburg, Lindsay; Fink, Lauren; Howlin, Claire; Randall, William; Hansen, Niels Chr.; Wald-Fuhrmann, Melanie",Viral Tunes: Changes in Musical Behaviours and Interest in Coronamusic Predict Socio-Emotional Coping During COVID-19 Lockdown,397,United States
+Wednesday,12,5,S,3,"MUSICOVID:
+coping through crisis with music (S)","Granot, Roni",A cross-cultural comparison of music versus other activities in achieving well-being goals during the Covid-19 pandemic,261,Israel
+Wednesday,12,5,S,4,"MUSICOVID:
+coping through crisis with music (S)","Ferreri, Laura; Singer, Neomi; McPhee, Michael; Ripollés, Pablo; Mas-Herrero, Ernest; Zatorre, Robert J",Engagement in music-related activities during the COVID-19 pandemic as a mirror of individual differences in musical abilities and coping strategies,248,Francia
+Wednesday,13,5,S,1,"MUSICOVID:
+coping through crisis with music (S)","Yeung, Timothy Yu-Cheong",Did the COVID-19 Pandemic Trigger Nostalgia? Evidence of Music Consumption on Spotify,470,Belgium
+Wednesday,13,5,S,2,"MUSICOVID:
+coping through crisis with music (S)","Wald-Fuhrmann, Melanie",Coronatunes? An analysis of the most popular Corona contrafacta and musical pieces Germans listened to and played during lockdown,379,Germany
+Wednesday,13,5,S,3,"MUSICOVID:
+coping through crisis with music (S)","Hansen, Niels Chr.; Kolding, Sara; Kurm, Anita; Baglini, Rebekah",Positive affective bias in corona-musicking during lockdown,540,Denmark
+Wednesday,13,1,1,1,Early years,"Vazquez Diaz de Leon, Verna",The interactive role of music as a facilitator for mother-infant bonding in early motherhood,187,MEXICO
+Wednesday,13,2,2,1,Memory,"Kubit, Benjamin M.; Janata, Petr",Spontaneous mental replay of music improves memory for musical sequence knowledge,537,U.S.
+Wednesday,13,2,2,2,Memory,"Pacheco Aguiar, Ana Marta",A consideration of empirical studies on musical memory: are aspects of the music experience being missed?,469,United Kingdom
+Wednesday,13,2,2,3,Memory,"Kinghorn, Elizabeth; Lagace-Cusiac, Rebekka; Demirkaplan, Ozgen; Grahn, Jessica; De Souza, Jonathan; Carter, Christine",The effects of interleaved and blocked practice on musical style recognition,679,Canada
+Wednesday,13,3,3,1,Pitch,"Korsmit, Iza Ray; Adler, Yuval; Madahi, Behrad; Smith, Bennett Keith; McAdams, Stephen",Multidimensional Scaling of Timbral Dissimilarities Across Pitch Registers at Different Dynamics,282,Canada
+Wednesday,13,3,3,2,Pitch,"Halpern, Andrea; Armitage, James; Eerola, Tuomas",The influence of mode and timbre on valence judgments and memory,471,USA
+Wednesday,13,4,4,1,Covid19,"Roese, Natalie Alexa; Merrill, Julia",Consequences of the COVID-19 Lockdown in Germany: Effects of Changes in Daily Life on Musical Engagement and Functions of Music,225,Germany
+Wednesday,13,4,4,2,Covid19,"Cohen, Susanna; Ginsborg, Jane",What can we learn from the impact of COVID-19 on the lives of self-employed orchestral musicians in the UK?,242,Israel
+Wednesday,14,1,1,1,Rhythm (African drumming),"Durojaye, Cecilia; Knowles, Kristina L.; Patten, K. Jakob; Garcia, Mordecai J.; McBeath, Michael K.",Speech and song surrogacy in the Yorùbá dùndún talking drum,407,Germany
+Wednesday,14,1,1,2,Rhythm (African drumming),"Larrouy-Maestri, Pauline; Fink, Lauren K.; Durojaye, Cecilia; Hörster, Madita; Poeppel, David; Wald-Fuhrmann, Melanie",Music or language or both? The classification of dundun talking drum stimuli,338,Germany
+Wednesday,14,1,1,3,Rhythm (African drumming),"Jacoby, Nori; Polak, Rainer; London, Justin",Extreme Precision in Rhythmic Interaction is Enabled by Role-Optimized Sensorimotor Coupling: Analysis and Modeling of West African Drum Ensemble Music,362,Germany
+Wednesday,14,2,2,1,Language in and describing music,"Patrick, Morgan; Swett, Nicky; Ashley, Richard",Animating Comparison: Bootstrapping Theme Learning in Multimodal Contexts,665,United States
+Wednesday,14,2,2,2,Language in and describing music,"Thiesen, Felix Christian; Gillner, Elisa; Schramm, Holger",“Shame for You”: Vicarious shaming in singer- songwriter performances,239,Germany
+Wednesday,14,3,3,1,Listening Motivation & Covid,"Phillips, Michelle; Jason, Taylor; Duncan, Williams; Luke, Jones; Olly, Bones; Daniela, Montaldi","Behaviours, motivations, and attitudes in relation to audience experiences of live streamed performance, pre- and post-COVID-19",685,UK
+Wednesday,14,3,3,2,Listening Motivation & Covid,"Alessandri, Elena; Rose, Dawn; Sigrist, Carlo; Blackstone, Kate; Burland, Karen",A mixed methods investigation of music student wellbeing: Perspectives from schools of music in Switzerland and the UK.,124,Switzerland
+Wednesday,14,4,4,1,Pitch and Memory,"Eitel, Matthew James; Ruth, Nicolas; Harrison, Peter; Frieler, Klaus; Müllensiefen, Daniel","Perception of chord sequences modelled with Prediction by Partial Matching, Voice-leading distance, and Pitch-Class Spectral Similarity: A new approach for testing individual differences in harmony perception",550,Canada
+Wednesday,14,4,4,2,Pitch and Memory,"Goldman, Andrew Jacob; Harrison, Peter; Jackson, Tyreek; Pearce, Marcus",Reassessing Syntax-Related ERP Components Using Popular Music Chord Sequences: A Model-Based Approach,237,USA
+Wednesday,14,5,S,1,One World in Song (S),"Greenberg, David M.",Symposium: One World in Song: Using music to bridge cultures and overcome social conflict,583,Israel
+Wednesday,14,5,S,2,One World in Song (S),"Greenberg, David M.",Introducing One World in Song: Initial findings from the social neuroscience of music and studies in the wild,585,Israel
+Wednesday,14,5,S,3,One World in Song (S),"Hendler, Micah",Jerusalem Youth Chorus Virtual Workshop; Bringing together young Palestinian and Israeli singers from East and West Jerusalem,587,9999
+Wednesday,15,5,S,1,One World in Song (S),"Gordon, Ilanit; Giboa, Avi; Cohen, Shai",Joint drumming as a platform to investigate interpersonal synchronization,590,9999
+Wednesday,15,5,S,2,One World in Song (S),"Seroussi, Edwin; Broza, David; Hendler, Micah; HaChen, Ruth",Roundtable discussion: Bringing music to life for social change (in the Middle East),593,9999
+Wednesday,15,1,Pa,1,Communication and interaction; Music & language (P),"Anastasi, Alessandra; Di Vita, Vincenza",Language and Performance Studies,567,Italia
+Wednesday,15,1,Pa,2,Communication and interaction; Music & language (P),"O'Neill, Katherine; Egermann, Hauke",Intra-Audience effects: The social experience of a live western art music concert influences people’s overall enjoyment of the event but not the emotional response to the music.,275,United Kingdom
+Wednesday,15,1,Pa,3,Communication and interaction; Music & language (P),"Opałka / Peryt, Maria Magdalena",Cognitive Performing as a new paradigm in music and performative arts emerging from pandemic crisis - case study.,304,9999
+Wednesday,15,1,Pa,4,Communication and interaction; Music & language (P),"Arrasmith, Kathleen Kaye","A Narrative Inquiry of Young Children’s Music Knowledge, Music Experiences, and Music Community at Home",266,United States
+Wednesday,15,1,Pa,5,Communication and interaction; Music & language (P),"Wood, Emily; Dotov, Dobromir; Chang, Andrew; Bosnyak, Dan; Klein, Lucas; Trainor, Laurel",Group information flow decreases over time as a string quartet learns to play unfamiliar pieces together,600,Canada
+Wednesday,15,1,Pa,6,Music & Language (P),"Cancino-Chacón, Carlos; Peter, Silvan; Chowdhury, Shreyan; Aljanaki, Anna; Widmer, Gerhard",Sorting Musical Expression: Characterization of Descriptions of Expressive Piano Performances,557,Austria
+Wednesday,15,1,Pe,1,Music & Language (P),"Brown, Jane; Bidelman, Gavin",Song properties and familiarity affect speech recognition in musical noise,324,1
+Wednesday,15,2,Pb,1,Music and health (P),"Kaczmarek, Stella",Application of music therapy in the treatment of psychosomatic patients,722,Polska
+Wednesday,15,2,Pb,2,Music and health (P),"Phillips, Michelle; Ward, Susanna; Rose, Dawn; Young, Will; Poliakoff, Ellen","USES OF MUSIC BY PEOPLE WITH PARKINSON’S WHEN
+COMPLETING EVERYDAY TASKS",386,England
+Wednesday,15,2,Pb,3,Music and health (P),"Rincón, Raúl; Carvalho, Eduarda",Musical / Acoustical analysis of vocal interaction in preterm dyads during maternal speech vs. maternal singing: A study case of twins with different gender,270,9999
+Wednesday,15,2,Pb,4,Music and health (P),"Sreewichian, Pulaporn; Cassidy, Gianna; Mason, Helen","Developing a Better Understanding of the Implementation, Evaluation and Impact of Socially Prescribed Music Interventions",531,United Kingdom
+Wednesday,15,2,Pb,5,Music and health (P),"Fernández de Cañete García, Claudia María; Perkins, Rosie; Martínez-Castilla, Pastora",Piano learning and children’s psychological wellbeing: A study investigating how students’ engagement influences wellbeing effects with the self- determination theory as mediating theoretical approach,410,9999
+Wednesday,15,2,Pf,1,Music/Musical Engagement: COVID-19 (P),"de los Santos, Cintia; Gualda, Fernando",Connecting people through singing: choir participation and wellbeing,671,BRAZIL
+Wednesday,15,2,Pf,2,Music/Musical Engagement: COVID-19 (P),"Anjou, Brittany","A Quantitative and Qualitative Study of Mental Health of Professional Jazz Musicians in NYC During Covid-19, and Perceived Effects of Extended Social Isolation on Group Improvisation",688,USA
+Wednesday,15,2,Pf,3,Music/Musical Engagement: COVID-19 (P),"McCloy, Morgan A.; Corrigall, Kathleen A.",Arts Engagement by Students in the Current COVID-19 Pandemic,605,Canada
+Wednesday,15,3,Pc,1,Rhythm (P),"Bechtold, Toni Amadeus; Witek, Maria",Groove and catchiness in popular music: an interview study with music experts,268,Switzerland
+Wednesday,15,3,Pc,2,Rhythm (P),"Kuijper, Laura C. M.; Lee, Christopher S.; Schaefer, Rebecca S.",Effects of rhythmic complexity on liking and urge to move: Investigating syncopation and repetition,510,The Netherlands
+Wednesday,15,3,Pc,3,Rhythm (P),"Kempf, Adrian; Schiavio, Andrea",An analysis of eye movements in sight-reading rhythms,350,Austria
+Wednesday,15,3,Pc,4,Rhythm (P),"Kaya, Ece; Henry, Molly J.",Individual differences in rhythmic entrainment and performance in temporal contexts requiring rapid adaptation,342,Germany
+Wednesday,15,3,Pc,5,Rhythm: Drumming (P),"Düvel, Nina; Kopiez, Reinhard",The Quiet Things that Count: The Functions and Properties of Ghost Notes From the Professional Drummer’s Perspective,207,9999
+Wednesday,15,3,Pc,6,Rhythm: Drumming (P),"Burger, Birgitta; Wöllner, Clemens","Relationships between tempo, dynamics, and movement characteristics in drumming",335,Germany
+Wednesday,15,3,Pe,2,Rhythm: Music & Health (P),"Rose, Dawn; Phillips, Michelle; Young, Will; Poliakoff, Ellen","A survey investigating the use of music, musical and motor imagery, for mood and movement management among people with Parkinson's.",212,Switzerland
+Wednesday,15,3,Pe,3,Rhythm: Perception (P),"Lookenbill, Zachary; VanHandel, Leigh; McAuley, Devin",Rhythmic Complexity is not Syncopation: An Investigation into Additional Factors of Perceived Complexity,645,United States
+Wednesday,15,3,Pe,4,Rhythm: Perception (P),"Nichols, Bryan E.; Stambaugh, Laura A.","Melody, not Beat Perception, Predicts Rhythmic Error Detection",417,9999
+Wednesday,15,3,Pe,5,Rhythm: Music & Health (P),"Pironio, Nicolás; Fernandez Slezak, Diego; Miguel, Martín Alejando",Development and evaluation of pulse clarity metrics based of a deep learning beat tracking model,607,Argentina
+Wednesday,15,4,Pd,1,Skills (P),"Vroegh, Thijs",Connectivity between dimensions of flow during musical performance: A network perspective,109,Netherlands
+Wednesday,15,4,Pd,2,Skills (P),"Cui, Anja-Xiaoxing; Motamed Yeganeh, Negin; Sviatchenko, Olga; Leavitt, Thea; McKee, Taylor; Guthier, Christina; Hermiston, Nancy; Werker, Janet F.; Boyd, Lara",The stress of music performance - heart rate variability differs between offstage and onstage periods,134,Germany
+Wednesday,15,4,Pd,3,Skills (P),"Kim, Sarah; Rhyu, Seungyeon; Nam, Juhan; Lee, Kyogu",Correlation Analysis of Both Hands and Musical Scores for Quantitative Evaluation of Piano Performance,462,1
+Wednesday,15,4,Pd,4,Skills (P),"Pennill, Nicola; Phillips, Keith; Phillips, Michelle E",Preparing music graduates for the industry of the future,573,9999
+Wednesday,15,4,Pd,5,Skills (P),"Allingham, Emma; Wöllner, Clemens",Focus of attention affects motor performance in violin bow-control: Evidence for the constrained action hypothesis,336,Germany
+Wednesday,15,4,Pd,6,Skills (P),"Chełkowska-Zacharewicz, Maria Emilia; Baran, Lidia",Usability of the psychological flexibility model in musicians. A qualitative study,542,Poland
+Wednesday,16,1,1,1,Togetherness,"Lorenz, Taina Marie",“I Play for Togetherness”: Impacts of Audio-Visual Asynchrony on Feelings of Social Closeness in Adult Community Band Musicians,406,Canada
+Wednesday,16,1,1,2,Togetherness,"Cameron, Kate; Burland, Karen; Bailes, Freya",Capturing Children’s Social Connections: A new method to examine the relationship between music tuition and social experiences,344,United Kingdom
+Wednesday,16,1,1,3,Togetherness,"Aksnes, Hallgjerd; Fuglestad, Svein; Koksvik, Ingvild",Being-Together-Through-Music: Experiences of Connectedness in GIM Therapy,690,Norway
+Wednesday,16,2,2,1,Musician's health,"Détári, Anna; Egermann, Hauke",Towards a holistic understanding of Musician's Focal Dystonia: psychosocial and psychological risk factors,465,UK
+Wednesday,16,2,2,2,Musician's health,"Barros, Samuel; Marinho, Helena; Borges, Nery; Pereira, Anabela",Undergraduate music students' characteristics of music performance anxiety: a systematic review,425,Portugal
+Wednesday,16,2,2,3,Musician's health,"Willis, Simone; Neil, Rich; Mellick, Mikel; Wasley, David",Occupational Stress and Well-being of Professional and Conservatoire Musicians,458,UK
+Wednesday,16,3,3,2,Aesthetic emotions,"Dalgard, Joachim; Lartillot, Olivier; Vuoskoski, Jonna; Guldbrandsen,Erling E.",Absorption- Somewhere between the heart and the brain,611,Norway
+Wednesday,16,3,3,3,Aesthetic emotions,"Dobrowohl, Felix A.; Herff, Steffen A.; Smit, Eline A.; Schaal, Nora K.","Functional excitement: Musical context informs listeners' emotional responses to chord gender, pitch height, and complexity",612,Germany
+Wednesday,17,5,S,1,Cross Cultural and Decolonised Research (W),"Sauvé, Sarah; Phillips, Elizabeth; Schiefelbein, Wyatt",Cross Cultural and Decolonised Research,2023,NA
+Wednesday,17,6,C,1,The Xenharmonic lounge: meet 'n' greet and listen (C),"Lenchitz, Jordan",The Xenharmonic lounge: meet 'n' greet and listen,2000,NA
+Wednesday,18,1,Pa,1,Pitch (P),"Brown, Jenine L.; Tan, Daphne; Moranis, Rebecca; Orlando, Stephanie",The pre-dominant function at cadences in Bach and Beethoven,204,1
+Wednesday,18,1,Pa,2,Pitch (P),"Mütze, Hanna; Busch, Veronika; Platz, Friedrich","Development and stabilization of internal representations of tonal hierarchies in pupils aged 8-
+15. A systematic review and meta-analysis.",339,9999
+Wednesday,18,1,Pa,3,Pitch (P),"Palandrani, Tiziana",The power of the voice in the saeta,263,Italy
+Wednesday,18,1,Pa,4,Pitch (P),"Stamatiadis, Alexandros; Timmers, Renee; Brown, Guy",Assessing the influence of pitch distributions in melody liking ratings,191,9999
+Wednesday,18,1,Pa,5,Pitch (P),"Avantaggiato, Massimo Vito",Crystal World: multidisciplinary analytical approaches and cognitive aspects,114,italy
+Wednesday,18,1,Pa,6,Pitch (P),"Taylor, John R.; Chmiel, Anthony; Dean, Roger T.; Stevens, Catherine J.; MacRitchie, Jennifer",PitchDraw: A Dual Axis Pitch Association Training App For Novice Musical Instrument Learners,319,1
+Wednesday,18,1,Pb,1,Pitch: Evolution & Biopsychology (P),"John, Renu P.; Jabbar, Dr.Jasseer",INFLUENCE OF ANT ERIOR TEMPORAL LOBECTOMY (ATL) IN INTELLIGENCE AND MUSICAL ABILITIES,340,9999
+Wednesday,18,1,Pb,2,Pitch: Evolution & Biopsychology (P),"Li, Xiaonuo",The Effects of Timbre on Absolute Pitch (AP) Judgment and Its Brain Mechanism,474,Germany
+Wednesday,18,1,Pb,3,Pitch: Evolution & Biopsychology (P),"Podlipniak, Piotr",Free rider recognition and the Baldwinian evolution of music,180,Polska
+Wednesday,18,1,Pb,4,Pitch: Evolution & Biopsychology (P),"Himpel, Benjamin",Differential Geometry of Music,622,Germany
+Wednesday,18,1,Pb,5,Pitch: Harmony (P),"de Clercq, Trevor Owen",Tempo versus Average Rates of Harmonic Rhythm in Popular Music: A Study of Three Corpora,259,9999
+Wednesday,18,1,Pc,1,Pitch: Harmony (P),"Owen, Caroline; Egermann, Hauke",The Role of Harmony in Musical Affect,408,United Kingdom
+Wednesday,18,1,Pc,2,Pitch: Harmony (P),"Phillips, Elizabeth; Brown, Steven",Beyond harmonicity: Vocal-melodic theories are necessary for studying the global origin of musical scales,683,1
+Wednesday,18,1,Pc,3,Pitch: Harmony (P),"Finkensiep, Christoph; Klaßmann, Sebastian; Ericson, Petter; Rohrmeier, Martin",Abstract Chords and Concrete Notes - A Bayesian Learner Model for Harmonic Ornamentation,586,9999
+Wednesday,18,1,Pc,4,Pitch: Memory (P),"Lembke, Sven-Amin",Identification of pitch-gesture sequences as a function of sequence length and gesture complexity,635,United Kingdom
+Wednesday,18,1,Pc,5,Pitch: Memory (P),"Noble, Graeme S.; Spyra, Joanna; Woolhouse, Matthew",The Nature of Artificial Sounds: Musical Memory for Key Characterized by Timbre,652,1
+Wednesday,18,1,Pc,6,Pitch: Memory (P),"Cecchetti, Gabriele; Herff, Steffen A.; Rohrmeier, Martin A.",Robustness to interference in memory performance and syntactic representations of melodies,358,Switzerland
+Wednesday,18,1,Pd,1,Pitch: Perception (P),"Swierczek, Konrad; Woolhouse, Matthew",Predicting the dynamic perception of key: a cognitive model,608,Canada
+Wednesday,18,1,Pd,2,Pitch: Perception (P),"Veic, Anamarija; Williams, Tim; Liu, Fang",Perception of lexical tone and intonation in Mandarin by English speakers with and without Autism Spectrum Disorder (ASD),382,England
+Wednesday,18,1,Pd,3,Pitch: Perception (P),"McLeod, Andrew; Suermondt, Xavier; Herff, Steffen A.; Rohrmeier, Martin",Perceptually-informed Chord Label Evaluation,359,Switzerland
+Wednesday,18,1,Pd,4,Pitch: Perception (P),"Proutskova, Polina; Velichkina, Olga",Open questions on tonality perception and construction in non-Western vocal music,703,UK
+Wednesday,18,1,Pd,5,Pitch: Perception (P),"Wolfs, Zyxcban; Boshuizen, Els",Implicit Tonal Ability Test: Investigating Reliability and Validity in Musical Perception Abilities of Primary School Children,182,the Netherlands
+Wednesday,18,2,Pe,1,Music in everyday life (P),"Cui, Jingyue; Dong, Rouchun; Li, Weiqing; Wang, Weijun","Predicting Personality from Music Users’ Internet
+Behavior and Lyrics Data",202,Germany
+Wednesday,18,2,Pe,2,Music in everyday life (P),"Kuch, Mia; Wöllner, Clemens",Principal Components of the Functions and Experiences of Mobile Music Listening,461,Germany
+Wednesday,18,2,Pe,3,Music in everyday life (P),"Kirk, Rory; Panoutsos, George; van de Werken, Maan; Timmers, Renee",Sleep Music: Exploring Properties of Spotify Playlists,526,UK
+Wednesday,18,2,Pe,4,Music in everyday life (P),"Robledo del Canto, Juan-Pablo",Refining a One-way Remote Video Recording Protocol (ORViRP),301,9999
+Wednesday,18,2,Pe,5,Music in everyday life (P),"Merrill, Julia; Kleinsteuber, Linnea",Effects of State and Trait Boredom on the Aesthetic Experience,395,Germany
+Wednesday,18,7,W,1,Applying for an academic job (BA),"Ambrazevičius, Rytis; Parncutt, Richard; Schiavio, Andrea; VanHandel, Leigh",Applying for an academic job,2013,NA
+Thursday,23 (Weds),1,Pb,1,Embodiment (P),"Proksch, Shannon; Reeves, Majerle; Balasubramaniam, Ramesh; Spivey, Michael",Coordination Dynamics of Multi-Agent Human Interaction – Recurrence Quantification Analysis of a Musical Performance,440,USA
+Thursday,23 (Weds),1,Pb,2,Embodiment (P),"Marchiano, María; Martínez, Isabel Cecilia","Do We Dance with Music or Does Music Make us
+Dance? Arms’ Movements at EDM Parties",326,Argentina
+Thursday,23 (Weds),2,Pa,1,Felt emotion (P),"Kapdi, Anushka; Thompson, William Forde; Davidson, Jane W.",The effect of music listening on cultural empathy: Brief exposure to outsider music insufficient to reduce cultural bias,715,9999
+Thursday,23 (Weds),2,Pa,2,Felt emotion (P),"Krause, Amanda E; Forbes, Melissa","Socio-cultural influences on Australian adults’ musical
+identities",130,Australia
+Thursday,23 (Weds),2,Pa,3,Felt emotion (P),"Baxter, John O'Bannon",Influences of Mood and Emotion on Perception of Tonal Modalities,258,USA
+Thursday,23 (Weds),2,Pa,4,Felt emotion (P),"McCloy, Morgan A.; Corrigall, Kathleen A.",Can Singing Help Me Relax? The Effect of Music on Perceived Stress,601,Canada
+Thursday,23 (Weds),2,Pa,5,Felt emotion (P),"Oakley, Ashley Hanna; Graber, Margaret; Albrecht, Joshua",Perception of Grief in Music Throughout Childhood and Early Adolescence,206,United States
+Thursday,23 (Weds),2,Pa,6,Felt emotion (P),"Schwitzgebel, Emily Elizabeth; Ashley, Richard",Implications of Silence in Pop Music,322,USA
+Thursday,23 (Weds),3,Pb,3,Cross-modality (P),"Lopez, Gerardo","Hearing, Seeing, Liking: Effects of Audio-Visual Listening Conditions on Perceptual Ratings",433,United States
+Thursday,23 (Weds),3,Pb,4,Cross-modality (P),"Grosser, Michelle Lynn","Congruence in the Multimodal Analysis of “Wile E.
+Coyote and the Road Runner”",165,Canada
+Thursday,23 (Weds),3,Pb,5,Cross-modality (P),"Urbaniak, Olivia Anne; Mitchell, Helen F","Dressed for success? How formal concert attire affects
+audiences’ ratings of female classical musicians",157,Australia
+Thursday,23 (Weds),4,Pc,1,Imagery (P),"Stedele, Mariana; Gualda, Fernando","Dreaming as artistic research on music creation and performance: literature review, new theoretical framework, and a case study",619,Brazil
+Thursday,23 (Weds),4,Pc,2,Imagery (P),"van Zyl, Marise; Fujioka, Takako","The influence of musical experience on listeners’
+audio-visual perception of acoustic space.",330,United States
+Thursday,0,1,1,1,Covid19 - effects on music practices,"Motamed Yeganeh, Negin; Cui, Anja-Xiaoxing; Werker, Janet F.; Boyd, Lara; Hermiston, Nancy",No effect of COVID-19 restrictions on stress during opera performance,220,Canada
+Thursday,0,1,1,2,Covid19 - effects on music practices,"Agres, Kat R.; Foubert, Katrien; Sridhar, Siddarth",The Impact of COVID-19 on Music Therapy and Technology Use Around the World,466,Singapore
+Thursday,0,2,2,1,Aesthetics,"Pinto, Diego; Morrison, Steven J.","Evaluations of Vocal Ensembles Are Associated with
+Performers’ Expressive Movement",575,United States
+Thursday,0,2,2,2,Aesthetics,"Heroux, Isabelle; Dubé, Francis; Thouin-Poppe, Louis-Edouard","If the musician thinks of a sunrise while playing a crescendo, with it be more expressive?",511,9999
+Thursday,0,2,2,3,Aesthetics,"Chen, Emily W.; Yohannes, Ellena L.; Burgess, Samantha I.; Shanahan, Daniel T.",Dropping the Bass: The Relationship between Heart Rate and Expectation in Electronic Dance Music,436,China
+Thursday,0,3,3,1,Cross-modality,"Rush, Toby","Braille Music Notator: Cross-Modal Issues in Literacy, Perception, and Pedagogy",599,United States of America
+Thursday,0,3,3,2,Cross-modality,"Miskinis, Alena; Albrecht, Joshua",Translating Music into Words: Mapping the Minds of 19th Century Music Analysts through the Exploration of Figurative Language as Evocative Descriptors of Musical Expression in 19th-century Music Periodicals,260,United States
+Thursday,0,3,3,3,Cross-modality,"Shea, Nicholas J.",Cartesian Segmentation of Fretboard Space by Form and Style,437,United States
+Thursday,0,5,S,1,Music performance and the second person (S),"Martinez, Isabel Cecilia; Perez, Diana Ines",MUSICAL PERFORMANCES FROM THE SECOND PERSON PERSPECTIVE,302,Argentina
+Thursday,0,5,S,2,Music performance and the second person (S),"Epele, Juliette; Martinez, Isabel Cecilia",THE SECOND PERSON IN THE INTERPRETATION AND REINTERPRETATION IN ORCHESTRA ROW,312,Argentina
+Thursday,0,5,S,3,Music performance and the second person (S),"Alimenti Bel, Demian",Talking about tango. A qualitative study of musical interaction from the Second Person perspective in a tango duo.,488,9999
+Thursday,0,5,S,0,Music performance and the second person (S),"Martinez, Isabel Cecilia",SYMPOSIUM: MUSIC PERFORMANCE AND THE SECOND PERSON,299,Argentina
+Thursday,1,5,S,1,Music performance and the second person (S),"Milomes, Luciana Rosario; Valles, Mónica",Second Person Interaction in Chamber Music Performance,372,Argentina
+Thursday,1,5,S,2,Music performance and the second person (S),"Perez, Joaquin Blas; Martínez, Isabel Cecilia",Social Interaction in Jazz Improvisation from the Second Person Perspective,329,Argentina
+Thursday,1,5,S,3,Music performance and the second person (S),"Marchiano, María; Tanco, Matías",DJing & Reading the Crowd in an EDM Context from a Second Person Perspective,328,Argentina
+Thursday,1,1,1,1,Embodiment,"Breeden, Virgil; Arthur, Claire",What do I dance to this?: A perceptual study of dance genre identification,654,United States
+Thursday,1,1,1,2,Embodiment,"Tichko, Parker; Kim, Ji Chul; Large, Edward","Neural Resonance Theory and musical rhythm development: Towards a dynamic, embodied, and ecological theory of rhythm development",610,United States
+Thursday,1,1,1,3,Embodiment,"Pfordresher, Peter",What do you do with a poor-pitch singer?,387,United States
+Thursday,1,2,2,1,Meaning,"Swaminathan, Swathi",Semantic Context Modulates Memory for Music,649,Canada
+Thursday,1,2,2,2,Meaning,"Reymore, Lindsey; Noble, Jason; Saitis, Charalampos; Traube, Caroline; Wallmark, Zachary",Mapping the semantics of timbre across pitch registers,623,Canada
+Thursday,1,2,2,3,Meaning,"Sears, David R. W.; Verbeten, Jonathan; Percival, Hannah",Does order matter? Harmonic priming effects for unscrambled tonal chord sequences,592,USA
+Thursday,1,3,3,2,Cross-cultural,"Loeffert, Kimberly Goddard",North American Women+ in Saxophone: Gender Representation at North American Saxophone Alliance Biennial Conferences from 2008–2020,363,United States
+Thursday,2,1,1,1,Music & Health (Clinical),"Wade, Laura Rosa Evonne; Reis, Samantha; Byron, Timothy",An Attachment Perspective on Emotional Reactions to Sad Music and Experiences with Depression,288,Australia
+Thursday,2,1,1,2,Music & Health (Clinical),"Pagel, Susan; Broughton, Mary; Bunzli, Emma; Davis, Erin; Elliott, Karen; Prasad, Vinita; Heussler, Honey",An Exploration of Single-Session Music Therapy to Reduce Clinic-Related Stress and Anxiety in Children with 22q11.2 Deletion Syndrome,714,9999
+Thursday,2,1,1,3,Music & Health (Clinical),"Papadopoulos, Julianne M.; Kovach, Chrysa L.; Goldsworthy, Raymond L.",Understanding Cochlear Implant User Music Perception and Experiences through Community Music Appreciation,196,United States of America
+Thursday,2,2,2,1,Physiology,"Upham, Finn; Zelechowska, Agatha; Gonzalez, Victor; Jensenius, Alexander Refsum",Quiet Breathing to Heard Music,419,Canada
+Thursday,2,2,2,2,Physiology,"Mehdizadeh, Sophia Kaltsouni; Leslie, Grace",Novel Methodologies for Secondary Analyses of Physiological and Musical Preference Data,678,United States
+Thursday,2,3,3,1,Neural processing and individual differences,"Sternin, Avital; Owen, Adrian M.; Grahn, Jessica A.",Music and language affect strength of inter-subject synchrony in young and older adults,251,Canada
+Thursday,2,3,3,2,Neural processing and individual differences,"Williams, Jamal",High-order areas and auditory cortex both represent the high-level event structure of music,264,United States
+Thursday,5,1,1,1,Cross- culture/world music,"Susino, Marco; Forde Thompson, William; Schubert, Emery",Emotional responses to music: The need to account for contextual factors,238,Australia
+Thursday,5,1,1,2,Cross- culture/world music,"Susino, Marco; Schubert, Emery",Musical emotions in the absence of music: A cross- cultural examination of emotion response by extra- musical cues,188,Australia
+Thursday,5,1,1,3,Cross- culture/world music,"Smit, Eline; Milne, Andrew; Sarvasy, Hannah; Dean, Roger",Felt valence of musical harmony in remote villages in Papua New Guinea: Cadences and melodies,158,Australia
+Thursday,5,2,2,1,Music Education,"Sharma, Geeta; Duncan, Scott; Nikolai, Jennifer; Stewart, Tom",Can a curriculum-integrated dance programme influence children’s wellbeing and classroom behaviour?,199,9999
+Thursday,5,2,2,2,Music Education,"Suberry, Assaf; Zohar, Eitan",Developmental trajectory of tonal perception,110,Isrzael
+Thursday,6,1,1,1,Cross- culture/world music,"Fraser, Trisnasari Cecilia; Davidson, Jane Whitfield",Social connection and collective flow through asynchronous virtual Egyptian Baladi performance,420,Australia
+Thursday,6,1,1,2,Cross- culture/world music,"Altun, Firat; Egermann, Hauke",The Effect of Temperament Systems on Emotion Induction of Turkish Makam Music,508,Turkey
+Thursday,6,2,2,1,Cognitive processes,"Jimenez, Ivan; Kuusi, Tuire; Ojala, Juha",Two-oddball Paradigm for Investigating the Relative Salience of Chord-type Changes over Voicing Changes,529,Finland
+Thursday,6,2,2,2,Cognitive processes,"Zou, Ivan Yifan; Jiaqi, Qu",Aesthetics of Surprise and Reinterpretation in Music Performance Across Cultures and Its Pedagogical Implications,651,Hong Kong
+Thursday,6,3,3,1,Music Techonology,"Ganeshan, Aishwarya; Prabhu, Prashanth",EFFECTIVENESS OF HEARING AID AMPLIFICATION STRATEGIES FOR PERCEPTION OF MUSIC,177,9999
+Thursday,6,3,3,2,Music Techonology,"Thakare, Shivani Prashant; Sonchhatra, Urja Hitesh; Pathak, Anushree Shreerang; Chowdhary, Siddhi Sandesh; Velankar, Makarand Ramesh",Modelling varying musical taste of user with incremental reinforcement learning for effective recommendation,169,9999
+Thursday,8,1,1,1,Cross- culture/world music,"Khan, Faizan Farooq; Alluri, Vinoo; Carlson, Emily; Saarikallio, Suvi",Cross-Cultural study on usage of music for mood regulation during a pandemic,290,India
+Thursday,8,1,1,2,Cross- culture/world music,"Aliyeva, Imina; Karimova, Zarif",Connectivity and Diversity of Heroic concept in music of different cultures and nations,735,Azerbaijan
+Thursday,8,1,1,3,Cross- culture/world music,"McBride, John M.; Pearce, Marcus; Tlusty, Tsvi",Unexpected convergence in melodic information across cultures,491,South Korea
+Thursday,8,2,2,1,Music and Dance Education,"Fletcher, Heather; Davidson, Jane W; Krause, Amanda E",“I ask them what they can feel”: Proprioception and the Voice Teacher’s Approach,345,Australia
+Thursday,8,2,2,2,Music and Dance Education,"MacArthur, Stephanie R.; Davidson, Jane W.; Krause, Amanda E.",“It’s like being the hero of your own story”: Perceptions of musical skill development for the beginner cellist.,249,Australia
+Thursday,8,2,2,3,Music and Dance Education,"Kaczmarek, Stella","Mental practice for dancers – applications, methods and functions",721,Polska
+Thursday,8,3,3,1,Entrainment & 4E,"Swarbrick, Dana; Erdem, Cagri; Refsum Jensenius, Alexander",MusicLab Algorave – An exploratory study examining the usage of mobile accelerometry to measure movements of a virtual concert audience,551,Norway
+Thursday,8,3,3,2,Entrainment & 4E,"Laroche, Julien; Tomassini, Alice; Fadiga, Luciano; Camurri, Antonio; Volpe, Gualtiero; d'Ausilio, Alessandro","Intrapersonal coupling within the orchestra and the
+«head department» of rhythm",682,9999
+Thursday,8,3,3,3,Entrainment & 4E,"Curwen, Caroline",Music-colour synaesthesia: a sensorimotor account,116,United Kingdom
+Thursday,8,4,4,1,Music and health,"MacRitchie, Jennifer; Chmiel, Anthony; Taylor, John R.; Radnan, Madeleine; Stevens, Catherine J.; Dean, Roger T.",The Active Minds Music Ensemble: Learning music online and in-person,148,UK
+Thursday,8,4,4,2,Music and health,"Satkunarajah, Praveena; Agres, Dr Kat",Web-platform Prototype for Visualisation of Kinematic Data captured from a Music-based Tele-rehabilitation System,476,Canada
+Thursday,8,4,4,3,Music and health,"Koehler, Friederike; Warth, Marco; Ditzen, Beate; Neubauer, Andreas B.",How motivation to make music influences flow experiences and well-being in hobby musicians’ everyday life,107,9999
+Thursday,8,5,S,1,Song teaching and learning – studies in music didactics (S),"Savona, Annamaria",How pre-service generalist teachers reflect on their song teaching lessons in internship and their subject- specific professional development,673,Switzerland
+Thursday,8,5,S,2,Song teaching and learning – studies in music didactics (S),"Stadler Elmer, Stefanie; Savona, Annamaria; Cavasino, Gabriella",Song teaching and learning – studies in music didactics,696,Switzerland
+Thursday,8,5,S,3,Song teaching and learning – studies in music didactics (S),"Stadler Elmer, Stefanie",Formal Song transmission – a quasi-experimental and micro-genetic study,697,Switzerland
+Thursday,9,5,S,1,Song teaching and learning – studies in music didactics (S),"Savona, Annamaria",How pre-service generalist teachers reflect on their song teaching lessons in internship and their subject- specific professional development,698,Switzerland
+Thursday,9,5,S,2,Song teaching and learning – studies in music didactics (S),"Cavasino, Gabriella",Song-Leading: An overview on contrasting didactics,699,9999
+Thursday,8,7,W,1,‘Meet-the-editors' journal publishing advice session (BA),"Stevens, Kate",Meet-the-editors' journal publishing advice session,2014,NA
+Thursday,9,1,1,1,Cross- culture/world music,"Kostka, Violetta Katarzyna","Change, Difference and Analogy in Paweł Szymański’s
+Music",118,Poland
+Thursday,9,1,1,2,Cross- culture/world music,"Aliyeva, Imina",Azerbaijani Modes in Traditional and European Genres: Connectivity and Diversity,725,9999
+Thursday,9,2,2,1,Music Technology,"Hamanaka, Masatoshi; Hirata, Keiji; Tojo, Satoshi",Two Strategies for Melody Morphing Based on GTTM,168,Japan
+Thursday,9,2,2,2,Music Technology,"Ganguli, Kaustuv Kanti; Anantapadmanabhan, Akshay; Lali, Gautham; Guedes, Carlos",A passive approach to evaluating Mridangam transcription via perceptual experiment,455,United Arab Emirates
+Thursday,9,2,2,3,Music Technology,"Borgohain, Junmoni; Karambelkar, Gouri; Patnaik, Priyadarshi; Suar, Damodar",Developing a Semantic Differential Scale for Capturing Attributes in Hindustani Classical Music,308,India
+Thursday,9,3,3,1,Methods development,"Hake, Robin; Bürgel, Michel; Müllensiefen, Daniel; Siedenburg, Kai",Development of an adaptive test of musical scene analysis ability,467,Germany
+Thursday,9,3,3,2,Methods development,"Gómez-Cañón, Juan Sebastián; Gutiérrez-Páez, Nicolás; Porcaro, Lorenzo; Gkiokas, Aggelos; Herrera, Perfecto; Gómez, Emilia",Improving emotion annotation of music using citizen science,150,9999
+Thursday,9,3,3,3,Methods development,"Fink, Lauren K.; Janata, Petr; Ganapathy, Sriram; Furukawa, Shigeto; Lange, Elke B.",Pupillary entrainment predicts listeners' ratings of absorption,129,Germany
+Thursday,9,4,4,1,Stress and motivation,"Gomes Arrulo, Teresa; Doumas, Michail; Papageorgiou, Kostas A.",Beneath the Surface: the Influence of Music and the Dark Triad Traits on Stress and Performance,166,United Kingdom
+Thursday,9,4,4,2,Stress and motivation,"Douglas, Karan; Clegg, Helen; Fine, Philip; Sonnex, Charmaine","The individual differences in the influences of motives, passion, and flow on psychological wellbeing in musicians.",297,UK
+Thursday,10,1,1,1,Cross- culture/world music,"Karambelkar, Gouri Ravindra; Borgohain, Junmoni; Patnaik, Priyadarshi; Sen, Joy",Ragas and the Range of Musical Emotions: An Exploration of Essential and Non-Essential Components and their Impact on Emotional Meaning Making,444,India
+Thursday,10,1,1,3,Cross- culture/world music,"Ambrazevicius, Rytis",Time performance rules in traditional singing,409,Lithuania
+Thursday,10,2,2,1,"Music, memory and boredom","Lamont, Alexandra; Anglada-Tort, Manuel","Influencing musical memories: How and why young
+adult listeners ‘remember’ music over long time spans",464,France
+Thursday,10,2,2,2,"Music, memory and boredom","Merrill, Julia; Niedecken, Tristan; Ackermann, Taren-Ida",Music and Boredom: A First Insight into an Unexplored Relationship,394,Germany
+Thursday,10,2,2,3,"Music, memory and boredom","Kuiper, Leanne; Örken, Ada; Burgoyne, J. Ashley",It’s Beginning to Sound a Lot Like Christmas: Exploring Short- and Long-Term Memory of Christmas Music Through an Online Game,518,The Netherlands
+Thursday,10,3,3,1,Methods development,"Rose, Dawn; Müllensiefen, Daniel; Lovatt, Peter; Orgs, Guido",The Goldsmiths Dance Sophistication Index (Gold-DSI): a psychometric tool to assess individual differences in dance experience.,111,Switzerland
+Thursday,10,3,3,2,Methods development,"Senn, Olivier; Bechtold, Toni; Rose, Dawn; Câmara, Guilherme Schmidt; Düvel, Nina; Jerjen, Rafael; Kilchenmann, Lorenz; Hoesl, Florian; Baldassarre, Antonio; Alessandri, Elena",Experience of Groove Questionnaire: Instrument Development and Initial Validation,133,Switzerland
+Thursday,10,4,4,1,Pitch,"Harrison, Peter M. C.; Marjieh, Raja; Jacoby, Nori",Characterizing the subjective pleasantness of tone combinations as a function of intervallic and spectral structure,361,Germany
+Thursday,10,4,4,2,Pitch,"Hall, Edward T. R.; Pearce, Marcus T.",Perception of thematic structure in music over small and large scales,517,United Kingdom
+Thursday,11,1,1,1,Global music comparisons,"Daikoku, Hideo; Ding, Shenghao; Benetos, Emmanouil; Wood, Anna Lomax Chairetakis; Fujii, Shinya; Savage, Patrick E.",Human and automated judgements of musical similarity in a global sample,287,Japan
+Thursday,11,1,1,2,Global music comparisons,"Lee, Harin; Jacoby, Nori; Schoenwiesner, Marc; Park, Minsu",Converging and diverging patterns in the evolution of popular songs around the globe,346,1
+Thursday,11,1,1,3,Global music comparisons,"Lin, Hsin-Rui; Frieler, Klaus; Müllensiefen, Daniel",Development and validation of short forms of the Goldsmiths Musical Sophistication Index in three languages,127,Canada
+Thursday,11,2,2,1,Music & behaviour,"Ziv, Naomi; Perez, Gil",The effect of background music on person perception in political contexts,247,Israel
+Thursday,11,2,2,2,Music & behaviour,"Marin, Manuela M.; Rathgeber, Ines","Darwin’s sexual selection hypothesis revisited: Music
+increases sexual attraction in both sexes",574,Austria
+Thursday,11,3,3,1,Rhythm,"Anglada-Tort, Manuel; Harrison, Peter; Jacoby, Nori",REPP: A robust cross-platform solution for online sensorimotor synchronization experiments,378,Germany
+Thursday,11,3,3,2,Rhythm,"Lem, Nolan Vincent; Fujioka, Takako",Extracting beat from a crowd of coupled metronomes: Effects of coupling strength and timbre on tapping synchronization,195,United States
+Thursday,11,3,3,3,Musical Ability,"Drakoulaki, Katerina; Anagnostopoulou, Christina; Guasti, Maria Teresa; Tillmann, Barbara; Varlokosta, Spyridoula",Potential relations between language skills with music skills and general cognitive skills in pre-schoolers,179,Greece
+Thursday,11,4,4,1,Pitch,"Moss, Fabian C.; Herff, Steffen A.; Rohrmeier, Martin",Individual perception of diatonic scales predicts perceived tonal fit in octatonic and hexatonic contexts,273,Switzerland
+Thursday,11,4,4,2,Pitch,"Curwen, Caroline",Synaesthesia for reading written musical keys,117,United Kingdom
+Thursday,11,5,S,1,Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice (S),"Cole, L. P.; Henechowicz, T. L.; Kang, K.; Pranjic, M.; Richard, N. M.; Tian, G. L. J.; Hurt- Thaut, C.",Neurologic Music Therapists delivered quality healthcare via telehealth during the COVID-19 pandemic: A survey study,566,Canada
+Thursday,11,5,S,2,Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice (S),"Richard, Nicole M.; Thaut, Michael H.; Hurt-Thaut, Corene",Music Therapy for Autistic Individuals via Telehealth: Keys to Successful Implementation,279,Canada
+Thursday,11,5,S,3,Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice (S),"Kang, Kyurim; Orlandi, Silvia; Lorenzen, Nicole; Chau, Tom; Thaut, Michael","Simultaneous Electroencephalography (EEG) Measurements in Child with Disabilities, their Mother, and Music Therapist",325,Korea
+Thursday,12,5,S,1,Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice (S),"Li, Bing; Hurt-Thaut, Corene; Fischer, Corinne E.; Thaut, Michael H.",A Cross-cultural Investigation of Neurologic Music Therapy (NMT) Interventions on Cognitive Improvement in Patients with mild-to-moderate Alzheimer’s Disease and Mild Cognitive Impairment (MCI),636,Germany
+Thursday,12,5,S,2,Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice (S),"Caputo, Chantelle Cassandra; Chu, Iue-Nin Annie; Hurt-Thaut, Corene",Delivering Neurologic Music Therapy-Based Telehealth Sessions: Clinical and Research Applications in the Time of COVID-19,667,Canada
+Thursday,12,5,S,3,Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice (S),"Ray, Cody; Richard, Nicole M.; Tian, Gloria L. J.",Overcoming technical difficulties: A toolbox for telehealth music therapy,547,1
+Thursday,12,5,S,NA,Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice (S),"Richard, Nicole Marie; Kang, Kyurim; Thaut, Michael H.; Hurt-Thaut, Corene; Li, Bing; Cole, Lauren Patricia; Henechowicz, Tara Lynn; Pranjić, Marija; Tian, Gloria L. J.; Caputo, Chantelle C.; Chu, Iue-Nin Annie; Ray, Cody",Symposium: Adapting Neurologic Music Therapy to a Virtual World: From Basic Research to Practice,664,Canada
+Thursday,13,1,Pa,1,Cross- cultural/world Music (P),"Good, Arla; Russo, Frank",Singing foreign songs promotes shared common humanity in elementary school children,732,Canada
+Thursday,13,1,Pa,2,Cross- Cultural/world Music (P),"Pais, Shally Sharin",Laputa: Castle in the Sky – a comparison of Joe Hisaishi’s scores for the film’s Japanese and English versions.,137,Australia
+Thursday,13,1,Pa,3,Cross- Cultural/world Music (P),"McBride, John Michael; Tlusty, Tsvi",Cross-cultural convergence in musical scales.,446,South Korea
+Thursday,13,1,Pa,4,Cross- Cultural/world Music: Indian Music/Mantras (P),"Iyer, Narayanan P",Indian Music and Cognition Of Human Values,229,India
+Thursday,13,1,Pa,5,Cross- Cultural/world Music: Indian Music/Mantras (P),"Kale, Ankita Kishor; Shetty, Suhas Kumar",Critical Appraisal of Mantra chanting in Ayurveda literature,174,India
+Thursday,13,1,Pa,6,Cross- Cultural/world Music: Indian Music/Mantras (P),"Singh, Arun Pratap","Vedic Mantras & Cognition: Concomitant Changes, Research Challenges & Future Prospects",707,India
+Thursday,13,2,Pb,1,Timbre (P),"Jimenez, Ivan; Kuusi, Tuire; Czedik-Eysenberg, Isabella; Reuter, Christoph",The Effect of Timbral and Non-timbral Cues on the Recognition of Songs from the Piano-Driven Opening Chord,512,Finland
+Thursday,13,2,Pb,2,Timbre (P),"Bürgel, Michel; Picinali, Lorenzo; Siedenburg, Kai",Listening in the mix: Lead vocals robustly attract auditory attention in popular music,164,9999
+Thursday,13,2,Pb,3,Timbre (P),"Li, Shen; Shuai, Jinling",The role of musical gestures in perception and communication of timbre,495,Germany
+Thursday,13,2,Pb,4,Timbre (P),"Siddiq, Saleh; Reuter, Christoph; Czedik-Eysenberg, Isabella; Eder, Matthias",The impact of aerosol filters on the sound of wind instruments,205,Austria
+Thursday,13,2,Pb,5,Timbre (P),"Yamada, Reiko; Aloy, Albert; Barbiero, Luca; Muñoz-Gil, Gorka; Lewenstein, Maciej",Applications of Quantum Randomness: From Rabi Oscillations to Fourier Axis Controlling the Musical Timbre,473,Spain
+Thursday,13,2,Pb,6,Timbre (P),"Löbbers, Sebastian; Fazekas, György",Representation of musical timbre through visual sketching,530,9999
+Thursday,13,2,Pc,6,Timbre: Low-Level Features (P),"Thiesen, Felix Christian; Kopiez, Reinhard; Müllensiefen, Daniel",Hearing a needle in a haystack: Recognition of intra- musical parameters in short musical objects (Plinks),244,Germany
+Thursday,13,2,Pd,1,Timbre: Low-Level Features (P),"Michalko, Aleksandra; Burgoyne, John Ashley",Description of Flute Tone Quality: Semantic Labelling of Low-Level Features,393,Belgium
+Thursday,13,3,Pc,1,"Music Technology
++Special ones (P)","Alcalde, Bruno",Listener Interactions with Musical Hybridity in the Piano Puzzler Podcast,243,United States
+Thursday,13,3,Pc,2,"Music Technology
++Special ones (P)","Chen, Manni; Lindborg, PerMagnus",Evaluation of AI Reverberation on Guitar,505,China
+Thursday,13,3,Pc,3,"Music Technology
++Special ones (P)","Pelofi, Claire; Goldstein, Michal N.; Bevilacqua, Dana; McPhee, Michael; Abrams, Ellie; Ripollés, Pablo",The CHILLER: a Computer Human Interface for the Live Labeling of Emotional Responses,162,9999
+Thursday,13,3,Pc,4,"Music Technology
++Special ones (P)","Yuan, Yuchen; Cronin, Charles; Müllensiefen, Daniel; Fujii, Shinya; Savage, Patrick E.",Comparing perceptual and automated judgements of music copyright infringement,485,China
+Thursday,13,3,Pc,5,"Music Technology
++Special ones (P)","Fukatsu, Haruno; Honda, Kazuaki; Ishizuka, Tatsuro; Ohgi, Yuji; Fujii, Shinya",Motion Analysis of Finger-bowing Skill in Violin Playing with A High Speed Camera: A Case Study,657,Japan
+Thursday,13,4,Pd,2,Music Well-Being (P),"Krause, Amanda E; Osborne, Margaret; Glasser, Solange",“Can’t live without music”: Engaging and disengaging from music listening,149,Australia
+Thursday,13,4,Pd,3,Music Well-Being (P),"Mishra, Sakshi; Haldar, Tonmoy",Efficacy of the musical pieces “Weightless” by Marconi Union and “Electra” by Airstream on State Anxiety among Undergraduate Students,250,India
+Thursday,13,4,Pd,4,Music Well-Being (P),"Vidas, Dianna; Nelson, Nicole L.; Dingle, Genevieve A.",Randomised Controlled Trial of the Tuned In Emotion Regulation Program for International Students,448,Australia
+Thursday,13,4,Pd,5,Music Well-Being (P),"Janakiraman, Janani; Jagadeesan, Nandini; M, Kanchana",Relationship between Engagement with Music and Problem Solving in Adults,501,India
+Thursday,13,4,Pd,6,Music Well-Being (P),"Kanagala, Sai charan; Gabińska, Anna; Schäfer, Thomas","The association between affect regulation strategies in music and trait affect, empathy",634,INDIA
+Thursday,13,7,W,1,Research funding for music cognition (BA),"Dibben, Nicola",Research funding for music cognition,2015,NA
+Thursday,14,1,1,1,Music and health,"Taylor, Hannah M.; Glasser, Solange; McPherson, Gary E.",A Systematic Review of Music and the Eating Disorders,515,1
+Thursday,14,1,1,2,Music and health,"Ridell Di Lorenzo, Kim; Schaefer, Rebecca S.",The Musical Coping and Responsivity Scale: Developing a Screening for Personalized Clinical Practice,545,Luxembourg
+Thursday,14,1,1,3,Physiology,"Warmbrodt, Ashley; Timmers, Renee; Kirk, Rory",The Emotion Trajectory of Self-Selected Jazz Music with Lyrics: A Psychophysiological Perspective,185,United States
+Thursday,14,2,2,1,Implicit processes,"Zelechowska, Agata; Gonzalez Sanchez, Victor; Jensenius, Alexander Refsum",Championship of Standstill: A paradigm to study involuntary responses to music with the use of motion capture,616,Norway
+Thursday,14,2,2,2,Implicit processes,"Lindner, Helen; Sandlund-Larsson, Gry",Eye-tracking technology to investigate eye contact and attention during music therapy in a patient with vegetative state – a single case study,643,9999
+Thursday,14,2,2,3,Implicit processes,"Roos, Marik",The Influences of a Predictive Processing Impairment on the Perception of Music,321,Austria
+Thursday,14,3,3,1,Rhythm,"Taher, Cecilia; Kim, Jin Hyun",Melodic repetition contracts the temporal experience of twelve-tone music,459,Germany
+Thursday,14,3,3,2,Rhythm,"Fiveash, Anna; Gaudrain, Etienne; Bedoin, Nathalie; Lalitte, Philippe; Tillmann, Barbara",The rhythmic priming effect: Influences of prime duration and speech in noise,663,France
+Thursday,14,5,S,1,One World in Song (S),"Rabinowitch, Tal-Chen",Interpersonal synchrony in various expressive modalities as perceived by adults and children,588,Israel
+Thursday,14,5,S,2,One World in Song (S),"Baruch, Elana; Gilboa, Avi",Using music as a bridge between conflicting groups: A hands-on workshop,589,?????
+Thursday,15,5,S,1,One World in Song (S),"Ward, Rebecca",How the next generation of musicians can become social change agents,597,UK
+Thursday,15,5,S,2,One World in Song (S),"Seroussi, Edwin; De Quadros, André; Jobin, Tarana Sarah; Simpkins, C. O.; Cross, Ian",Roundtable discussion: Bringing music to life for social change (in North America & Europe),596,United States
+Thursday,14,7,W,1,Research funding ideas-pitch (BA),"Dibben, Nicola; Eerola, Tuomas; MacRitchie, Jenni; Wöllner, Clemens",Research funding ideas-pitch,2016,NA
+Thursday,15,1,1,1,Music and health,"MacLean, Jessica A.; Robb, Sheri L.; Holochwost, Steven J.; Stegenga, Kristin A.; Perkins, Susan M.; Russ, Kristen A.; Jacob, Seethal A.; Henley, Amanda K.; Shoop, Jenny M.",Connectivity across disciplines: Approaches to interdisciplinary team science in music and health,554,USA
+Thursday,15,1,1,2,Music and health,"Perkins, Rosie; Mason-Bertrand, Adele; Tymoszuk, Ula; Spiro, Neta; Gee, Kate; Williamon, Aaron",How arts engagement can support social connectedness: Results from the HEartS Survey,173,USA
+Thursday,15,2,2,1,Improvisation,"Merseal, Hannah M.; Beaty, Roger E.; Kenett, Yoed N.; Lloyd-Cox, James; de Manzano, Örjan; Norgaard, Martin",The Melodicon: Representing Melodic Relationships Using Network Science,307,United States
+Thursday,15,2,2,2,Improvisation,"Frieler, Klaus; Beaty, Roger; Norgaard, Martin; Merseal, Hannah; MacDonald, Maryellen; Weiss, Dan",Spontaneous melodic productions of expert musicians contain sequencing biases seen in language production,151,Deutschland
+Thursday,15,2,2,3,Improvisation,"Weiss, Michael W.; Peretz, Isabelle",Assessing tonality in sung improvisations,556,Canada
+Thursday,15,3,3,1,Rhythm,"Poudrier, Eve; Sapp, Craig; Shanahan, Daniel",The Cognitive and Affective Correlates of Rhythmic Complexity,380,Canada
+Thursday,15,3,3,2,Rhythm,"Kaplan, Thomas; Jamone, Lorenzo; Pearce, Marcus",Modelling the Influence of Rhythm Production on Meter Perception,218,United Kingdom
+Thursday,15,3,3,3,Rhythm,"Wöllner, Clemens; Hammerschmidt, David","Tapping to hip-hop: How cognitive load, arousal, and musical meter shape perceived time",341,9999
+Thursday,15,6,C,1,A concert performance of Hindustani and Carnatic music (C),"Ganguli, Kaustuv; Varadarajan, Suguna",A concert performance of Hindustani and Carnatic music,2004,NA
+Thursday,16,1,K,1,Keynote,"Norgaard, Martin; Vergara, Victor M.; Beaty, Roger E.; Miller, Robyn L.",Connectivity of Brain Functional Domains during Jazz Improvisation,629,United States
+Thursday,17,6,C,1,The Yorkshire Programming Ensemble: an Algo-concert (C),"Kirkbride, Ryan",The Yorkshire Programming Ensemble: an Algo- concert,2006,NA
+Friday,"23
+(Thurs)",1,1,1,Affect,"Koh, Eunjeong; Dubnov, Shlomo",Understanding Affective Aspects of Music Using Deep Audio Embeddings,579,United States
+Friday,"23
+(Thurs)",1,1,2,Affect,"Belfi, Amy M.; Moreno, Georgina; Gugliano, Maria; Neill, Claire",Musical reward across the lifespan,198,USA
+Friday,"23
+(Thurs)",1,1,3,Affect,"Correa, Juan Pablo; Saucedo, Arely Marián; Fajardo, Erick Gabriel",Effects of oral introductions upon the perception of two contrasting pieces,323,MÈxico
+Friday,"23
+(Thurs)",2,2,1,Music & Well- Being,"Kang, Hyun-Jung",Participation in Amateur Orchestra and Subjective Well-Being in Korea,356,Korea
+Friday,"23
+(Thurs)",2,2,2,Music & Well- Being,"Di Nucci, Liz; Davidson, Jane W",Investigating the musical and wellbeing benefits of one-to-one piano/keyboard lessons for older adults,454,Australia
+Friday,"23
+(Thurs)",2,2,3,Music & Well- Being,"Good, Arla; Russo, Frank",Sociobiological benefits of group singing in older adults,730,Canada
+Friday,"23
+(Thurs)",3,3,1,Learning,"White, Christopher W; Lee, Seung Suk; Moreton, Elliott; Pater, Joe; Pertsova, Katya; Prickett, Brandon; Sanders, Lisa",Learning to Identify Exact and Palindromic Repetitions in Pentatonic Melodies,630,9999
+Friday,"23
+(Thurs)",3,3,2,Learning,"Stambaugh, Laura Ann; Bryan, Carolyn J.",A Multi-Modal Investigation of Performing Articulation,311,United States
+Friday,"23
+(Thurs)",3,3,3,Learning,"Pomerleau-Turcotte, Justine; Moreno Sala, Maria Teresa; Dubé, Francis; Vachon, François",Sight-singing: A close look at strategy use with eye- tracking,317,Canada
+Friday,"23
+(Thurs)",4,4,1,Timbre,"Ammirante, Paolo",Is melodic expectancy vocally constrained?,293,9999
+Friday,"23
+(Thurs)",4,4,2,Timbre,"Reymore, Lindsey",Characterizing prototypical musical instrument timbres with Timbre Trait Profiles,240,Canada
+Friday,0,1,Pa,1,Affect (P),"Hardy, Anthony Michael",Biopsychological Effects of Tampered Music Across Levels of Musical Training,232,United States
+Friday,0,1,Pa,2,Affect (P),"Mallik, Adiel; Thomson, Zoe; Russo, Frank",The effect of an affective music-based mood regulation system and auditory beat stimulation on anxiety,733,9999
+Friday,0,1,Pa,3,Affect (P),"Allan, Amalia","Looks Can Be Deceiving: Affect Perception in Boys’, Girls’, and Mixed Children’s Choir Performances",655,USA
+Friday,0,1,Pa,4,Affect (P),"Rodríguez, Alelí; Flores, Enrique O.",Affective responses to psychoacoustic timbre elements of the operatic voice,604,9999
+Friday,0,1,Pa,5,Affect (P),"Cho, Eun; Duarte-García, Mario A.; Sigal-Sefchovich, Jorge R.; Chagas, Paulo C.",Music-evoked nostalgia and prosocial behavior: A cross-sectional study in the United States and Mexico,403,USA
+Friday,0,2,Pb,1,Music and language (P),"Liang, Angela; Taft, Marcus",The relationship between early musical training and L2 language processing in adult bilinguals,144,Australia
+Friday,0,2,Pb,2,Music and language (P),"Kim, Sunghun; Park, Woolim",On the Approach of <Tonality Colour Wheel> focused on the Visual Perspectives,186,1
+Friday,0,2,Pb,3,Music and language (P),"Mora-Silva, Francisco; Peréz-Acosta, Gabriela",Mentalization and self in jazz improvisation,662,9999
+Friday,0,2,Pb,4,Music and language (P),"Salcedo, Daniel; Simchy-Gross, Rhimmon","Echoic Memory, Temporal Regularity, and the Speech-to-Song Illusion",284,United States
+Friday,0,2,Pb,5,Music and language (P),"Street, Laura E.; Spyra, Joanna; Woolhouse, Matthew",Syntactic Parallelism Between Music and Language in Relation to Key Memorization,631,Canada
+Friday,0,3,Pc,1,Music education and informal learning (P),"MacDonald, Jordan J.; Wilbiks, Jonathan",NA,594,Canada
+Friday,0,3,Pc,2,Music education and informal learning (P),"Williams, Susan G.; Van Ketel, Joram E.; Schaefer, Rebecca S.","Musical practice with External Focus: Effects of
+attention on musicians’ skill acquisition",638,United States
+Friday,0,3,Pc,3,Music education and informal learning (P),"Guerrero, Coral Italú; Jiménez, Luis",Structural and Functional Neurocognitive Changes of Deaf Children After Rhythm Musical Training,223,9999
+Friday,0,4,Pc,4,Pitch (P),"Lenchitz, Jordan Ira",A Repertoire-Agnostic Model of Spectral Fission,430,United States
+Friday,0,4,Pc,5,Pitch (P),"Hopkins, Erin Jennifer",The Pitch Map Task: A Novel Tool for Visualizing Spatial Pitch Associations,219,USA
+Friday,0,4,Pc,6,Pitch (P),"Bruschi, Michael",The Social Psychology of Consonance and Dissonance,327,United States
+Friday,1,1,1,1,Perception and attention,"Stover, Brandon Jeffrey",The Dopple-Grain: Materiality of Foreign Language Vocality,514,United States
+Friday,1,1,1,2,Perception and attention,"Daphne, Tan; Brown, Jenine; Michelle, Lin",A context-sensitive analysis of pre-dominant chords in Mozart,254,9999
+Friday,1,1,1,3,Perception and attention,"Springer, D. Gregory; Silvey, Brian A.",Effects of Focus of Attention Instructions on Listeners’ Evaluations of Solo Instrumental Performance,257,United States
+Friday,1,3,3,1,Pitch,"Creel, Sarah C; Obiri-Yeboah, Michael; Rose, Sharon",Tone language-to-music transfer effects do not appear in Akan,692,United States
+Friday,1,3,3,2,Pitch,"Honda, Chihiro; Pruitt, Tim; Greenspon, Emma; Liu, Fang; Pfordresher, Peter Q.",The effects of long-term experience with a tonal language and music on pitch imitation,381,USA
+Friday,1,5,S,1,A Cultural Psychological Perspective to Music Preference in Contemporary Society (S),"Liew, Kongmeng",Symposium: A Cultural Psychological Perspective to Music Preference in Contemporary Society,451,Japan
+Friday,1,5,S,2,A Cultural Psychological Perspective to Music Preference in Contemporary Society (S),"Liew, Kongmeng; Uchida, Yukiko; Koh, Alethea H. Q.",Spotify's energy feature is associated with collectivism across cultures,447,Japan
+Friday,1,5,S,3,A Cultural Psychological Perspective to Music Preference in Contemporary Society (S),"Cachia, Julie Y. A.; Tsai, Jeanne L.",Cultural Differences in the Emotional Content of Popular Love Songs: A Comparison of U.S. and Japan,429,United States
+Friday,2,5,S,1,A Cultural Psychological Perspective to Music Preference in Contemporary Society (S),"Fram, Noah R.; Tsai, Jeanne L.; Liew, Kongmeng; Uchida, Yukiko","Cultural variation in music-evoked emotions, emotional regulation, and the parametrization of affect",456,USA
+Friday,2,5,S,2,A Cultural Psychological Perspective to Music Preference in Contemporary Society (S),"Krause, Amanda E.; Baker, David J.; Groarke, Jenny; Pereira, Ana I.; Liew, Kongmeng; Anglada-Tort, Manuel; Steffens, Jochen",A global investigation of music listening practices: The influence of country latitude and seasons on music preferences.,582,Australia
+Friday,5,1,1,1,Covid19,"Crooke, Alexander Hew Dale; Davidson, Jane; DeNora, Tia; Hara, Mariko","“Everybody was just suddenly, like, not connecting”: early impacts of social distancing on artist’s social capital",450,Australia
+Friday,5,1,1,2,Covid19,"Loveridge, Ben",A comparison of singing in virtual reality and video conferencing,507,Australia
+Friday,5,2,2,1,Music Techonology (Online Streaming),"Hanji, Shivani; Goyal, Yash; Alluri, Vinoo",Exploring gender-specific music preferences associated with risk for depression on online music streaming platforms,606,India
+Friday,5,2,2,2,Music Techonology (Online Streaming),"Goyal, Yash; Alluri, Vinoo",Artist2Risk: Predicting Depression Risk based on Artist Preferences,413,India
+Friday,5,2,2,3,Music Techonology (Online Streaming),"Goyal, Yash; Hanji, Shivani; Carlson, Emily; Alluri, Vinoo",Tag-based and acoustic-feature based emotions associated with online music consumption and Personality,498,India
+Friday,6,1,1,1,Covid19,"Davidson, Jane W.; Krause, Amanda E.",The transactional culture of chamber music performance now and into the future,700,Australia
+Friday,6,1,1,2,Covid19,"Kiernan, Frederic; Davidson, Jane W.",Music as a tool for adaptation and connection during the COVID-19 lockdowns in Australia,717,Australia
+Friday,6,2,2,2,Music Techonology (Emotion from Language),"Yadav, Pranshi; Kala, Divy; Mankodi, Nisarg; Hanji, Shivani; Alluri, Vinoo",Sing Me a Story: Background Music Generation for Books,536,India
+Friday,6,2,2,3,Music Techonology (Emotion from Language),"Agarwal, Rajat; Singh, Ravinder; Toiviainen, Petri; Alluri, Vinoo",Music emotion recognition from lyrics using Transformers-Capsule network,719,India
+Friday,8,1,1,1,EEG,"Todd, Neil Philip; Keller, Peter E; Govender, Sendhil; Colebatch, James",Effects of stimulus intensity and frequency on the force and timing of sensorimotor synchronisation,438,Australia
+Friday,8,1,1,2,EEG,"Sakamoto, Shu; Matsushita, Karin; Kobayashi, Atsuya; Shimizu, Risa; Aoyama, Atsushi",Oscillatory activity in multiple neural processes related to auditory imagery,523,Japan
+Friday,8,1,1,3,EEG,"Boasson, Amos David; Vishne, Gal; Deouell, Leon; Granot, Roni","Rapid Responses to Auditory Frequency Change, Its Magnitude and Direction – from Brain to Action",626,Israel
+Friday,8,2,2,1,Music & Health (Clinical),"Yoo, Ga Eul",Can music facilitate the attending to others during interpersonal synchronization? An eye tracking study with adolescents with ASD,670,South Korea
+Friday,8,2,2,3,Music & Health (Clinical),"Chee, Zhong Jian; Leung, Yvonne; de Vries, Marieke","Musical Sophistication and its Relationship with Executive Functions, Autistic Traits and Quality of Life",211,Malaysia
+Friday,8,3,3,1,"Harmony across cultures, styles","Athanasopoulos, George; Eerola, Tuomas; Lahdelma, Imre; Kaliakatsos-Papakostas, Maximos; Damjanovic, Ljubica",The influence of harmonic background of melody to perceived emotions: a cross-cultural study between Western and NW Pakistani listeners,265,Greece
+Friday,8,3,3,2,"Harmony across cultures, styles","Lahdelma, Imre; Athanasopoulos, George; Eerola, Tuomas",Harmony’s Sweetness is in the Ear of the Beholder: Comparing the Perception of Chords Across UK and Pakistani Listeners,252,UK
+Friday,8,3,3,3,"Harmony across cultures, styles","Bernardes, Gilberto; Ramoneda, Pedro; Miron, Marius",Unveiling High-level Discriminant Harmonic Descriptors of Musical Style in the Tonal Interval Space,421,Portugal
+Friday,8,4,4,1,Rhythm [Best paper],"Hammerschmidt, David; Wöllner, Clemens","Spontaneous motor tempo: Investigating chronobiology, stress, and musicality using an experience sampling method",369,Germany
+Friday,8,4,4,2,Rhythm,"Wen, Olivia Xin; Weineck, Kristin; Henry, Molly J.",Consistency and diversity in preferred tempo across sound categories,499,Germany
+Friday,8,5,S,1,Interdisciplinary perspectives on contemporary music (S),"Bogunovic, Blanka",Symposia - Interdisciplinary Perspective on Contemporary Music,646,Serbia
+Friday,8,5,S,2,Interdisciplinary perspectives on contemporary music (S),"Kiš Žuvela, Sanja",Classical Musical Topoi in Contemporary Art Music: An Exploratory Study,562,9999
+Friday,8,5,S,3,Interdisciplinary perspectives on contemporary music (S),"Nogaj, Anna A.",21st century musical pieces: Perceived by music performers,705,Poland
+Friday,8,5,S,4,Interdisciplinary perspectives on contemporary music (S),"Žauhar, Valnea; Bajšanski, Igor; Crnjanski, Dunja; Dmitrović, Nicole; Dražul, Ana; Matić,
+Aleksandra",Memorizing contemporary piano music piece: comparison between professional and student performance,427,9999
+Friday,8,5,S,5,Interdisciplinary perspectives on contemporary music (S),"Tomić, Marija Z.","Flutist’s Body and Voice between the East and the West – on Interpretation of the ""Voice"" (1971) by Toru Takemitsu",228,9999
+Friday,9,5,S,1,Interdisciplinary perspectives on contemporary music (S),"Nikolić, Sanela; Miladinović, Ivana","Aesthetic experience of contemporary art music –
+case study",548,9999
+Friday,9,5,S,2,Interdisciplinary perspectives on contemporary music (S),"Bogunovic, Blanka",Cognitive processes in composing music,559,Serbia
+Friday,9,1,1,1,EEG,"Bharadwaj, Sushrutha; Hegde, Shantala; Dutt, Narayana; Prem Rajan, Anand",Entropy and Fractal dimensions can be used to distinguish happy and sad emotions induced by North Indian Classical Music,706,9999
+Friday,9,1,1,3,EEG,"Kunikullaya Ubrangala, Kirthana; Sasidharan, Arun; Srinivasa, Rakshith; Vijayadas; Kunnavil, Radhika; Goturu, Jaisri; Prakash, Vadagenahalli S.; Murthy, Nandagudi Srinivasa",Influence of listening to three chosen Indian melodic scales on EEG power spectrum among young healthy individuals – a randomized controlled trial,267,9999
+Friday,9,2,2,2,Music & Health (Clinical),"Gothwal, Mohit; Hegde, Shantala","Deficits in rhythm perception and neurocognitive
+deficits in Parkinson’s disease",441,India
+Friday,9,2,2,3,Music & Health (Clinical),"Mittal, Anant; Subramanian, Sidhant; Gulati, Kankan; Bhargava, Hemanth; Chaturvedi, SK; Andrade, Chittaranjan; Gangadhar, B N; Alluri, Vinoo; Hegde, Shantala",Assessing the validity of the Healthy-Unhealthy Music Scale in patients with depression: A study from India,294,India
+Friday,9,3,3,2,Pitch syntax learning,"Benetti, Lucia; Costa-Giomi, Eugenia",A corpus study of song melodies in one infant’s music environment: Variation and consistency in information for learning of tonal organization,475,Hungary
+Friday,9,3,3,3,Pitch syntax learning,"Harasim, Daniel; O'Donnell, Timothy J.; Rohrmeier, Martin",The Learnability of Hierarchical Grammars for Chord Sequences: A Corpus Study of Jazz Harmony,503,Germany
+Friday,9,4,4,1,Music during Covid,"Gibbs, Hannah Jennet; Egermann, Hauke","Music-Evoked Nostalgia and Wellbeing During the United Kingdom COVID-19 Pandemic: Content, Subjective Effects and Function",365,United Kingdom
+Friday,9,4,4,2,Music during Covid,"Nordengen, Hanne Myklebost","Affective responses to music listening before, during, and after COVID-19 lockdown: An experience sampling study",122,Norge
+Friday,9,4,4,3,Music during Covid,"Szikora-Kiss, Luca; Linnell, Karina J",The sounds of quarantine: musical engagement and well-being during Covid-19,710,9999
+Friday,10,1,1,1,EEG,"Pandey, Pankaj; Ahmad, Nashra; Miyapuram, Krishna Prasad; Lomas, Derek",Visualizing Individual Differences in EEG responses to music,479,india
+Friday,10,1,1,3,EEG,"Ahmad, Nashra; Pandey, Pankaj; Miyapuram, Krishna Prasad",Neural Correlates of Consonant and Dissonant Musical Chords,480,India
+Friday,10,2,2,2,Imagery,"Dukic, Helena; Parncutt, Richard",Elicitation of visual imagery in a narrative form in Guided Imagery and Music sessions,627,Croatia
+Friday,10,2,2,3,Imagery,"Hashim, Sarah; Stewart, Lauren; Küssner, Mats B.; Omigie, Diana",Evaluating the Consistency and Thematic Content of Music-Induced Visual Mental Imagery,668,United Kingdom
+Friday,10,3,3,2,Music syntax perception,"Mihelac, Lorena; Povh, Janez; Wiggins, Geraint Anthony","Segmentation of melody: a comparison of segmentation between children, musical experts and IDyOM",123,SLOVENIA
+Friday,10,3,3,3,Music syntax perception,"Cecchetti, Gabriele; Herff, Steffen A.; Rohrmeier, Martin A.",Musical syntactic revision in the perception of melodies,351,Switzerland
+Friday,10,4,4,1,Music therapy,"Douglass-Kirk, Pedro; Grierson, Mick; Ward, Nick S; Brander, Fran; Kelly, Kate; Chegwidden, Will; Shivji, Dhiren; Stewart, Lauren",Reducing Compensatory Movements in Stroke Rehabilitation with the Aid of Auditory Feedback,538,United Kingdom
+Friday,10,4,4,2,Music therapy,"Howlin, Claire Anne; Rooney, Brendan",Musical Integration and Cognitive Agency predict chronic pain patient's expectation of analgesic benefits from self-chosen music,405,Ireland
+Friday,10,6,C,1,Concert of Azerbaijani music (C),"Alieva, Imina",Concert of Azerbaijani music,2007,NA
+Friday,11,1,1,1,Neuroscience,"Haiduk, Felix; Benjamin, Lucas; Zatorre, Robert; Morillon, Benjamin; Albouy, Philippe",Spectrotemporal cues and attention modulate neural networks for speech and music,546,Austria
+Friday,11,1,1,2,Neuroscience,"Mencke, Iris; Quiroga-Martinez, David; Omigie, Diana; Michalareas, Georgios; Schwarzacher, Franz; Haumann, Niels Trusbak; Vuust, Peter; Brattico, Elvira",Prediction Under Uncertainty: Dissociating Sensory from Cognitive Expectations in Highly Uncertain Musical Contexts,602,Germany
+Friday,11,2,2,1,Imagery,"Schleicher, Carina; Küssner, Mats B.",Seeing with the mind's eye: The influence of narrative congruence on visual imagery and emotions during music listening,396,Germany
+Friday,11,2,2,2,Imagery,"Ulor, Michelle; Bailes, Freya; O'Connor, Daryl",The Effects of Voluntary Musical Imagery on Anxiety and Mood,283,United Kingdom
+Friday,11,3,3,1,Emotion and cognition,"Kim, Aimee Jeehae; Chong, Hyun Ju",The influence of musical expression of emotions on conscious emotion regulation during music listening,522,1
+Friday,11,3,3,2,Emotion and cognition,"Randall, William M.; Baltazar, Margarida; Saarikallio, Suvi",Success in reaching short-term emotion regulation goals during music listening,571,9999
+Friday,11,4,4,1,Classifying Music (Covid & Memory),"Kalustian, Kework K.; Ruth, Nicolas",“Evacuate the Dancefloor”: Exploring and Classifying Spotify Music Listening Before and During the COVID-19 Pandemic in DACH Countries,227,Germany
+Friday,11,4,4,2,Classifying Music (Covid & Memory),"Kalustian, Kework K.",Spotify Streaming Before and During the First Wave of the COVID-19 Pandemic in Germany: Compared and Predicted,659,Germany
+Friday,11,5,S,1,Creating experiences of togetherness (S),"Hansen, Niels Chr.; Ee, Carolyn; Vuust, Peter; Keller, Peter",How oxytocin modulates subjective and objective togetherness in sensorimotor synchronization,415,Denmark
+Friday,11,5,S,2,Creating experiences of togetherness (S),"Dotov, Dobromir; Delasanta, Lana; Cameron, Daniel J; Large, Edward; Trainor, Laurel",The role of collective dynamics in interpersonal interaction revealed by a group drumming tasks,449,Canada
+Friday,11,5,S,3,Creating experiences of togetherness (S),"Keller, Peter; König, Rasmus; Novembre, Giacomo","Social communicative functions of the singer’s
+formant in choral music",463,United States
+Friday,11,5,S,4,Creating experiences of togetherness (S),"Begel, Valentin; Demos, Alexander P.; Palmer, Caroline",Do we make good partners? Delay-coupling models of auditory-motor synchronization in a turn-taking context.,525,9999
+Friday,12,5,S,1,Creating experiences of togetherness (S),"Bishop, Laura; Gonzalez Sanchez, Victor; Laeng, Bruno; Jensenius, Alexander Refsum; Høffding, Simon",Social context affects head motion and gaze in string quartet rehearsal and concert performances,570,Norway
+Friday,12,5,S,2,Creating experiences of togetherness (S),"D'Amario, Sara; Bishop, Laura; Goebl, Werner; Niemand, Anna",Judging Togetherness in Point-Light Displays of Professional Duo Performances,584,9999
+Friday,12,5,S,3,Creating experiences of togetherness (S),"Bishop, Laura; D'Amario, Sara",Creating experiences of togetherness,632,Norway
+Friday,13,1,1,1,Learning,"Herff, Steffen A.; Spalding, Zane; Prince, Jon B.",Mood Biases: Interactions between mood scales and stimulus valence predict learning of chord sequences,360,Switzerland
+Friday,13,1,1,2,Learning,"Neto, Pedro A. S. O.; Cui, Anja X.; Rojas, Paula; Vanzella, Patricia; Cuddy, Lola L.",The new interval: scale steps as an alternative to frequency ratios,236,9999
+Friday,13,2,2,1,Music & Health (Clinical),"Kanagala, Sai charan; Gabińska, Anna",Music Anhedonia: An exploration into empathy deficit in music reward,613,INDIA
+Friday,13,2,2,2,Music & Health (Clinical),"Chandrasekar, Shradha; Pai, Keshava",Music vs. Progressive Muscle Relaxation: A Pilot Study To Compare Effectiveness On Alcohol Craving Reduction,126,India
+Friday,13,2,2,3,Music & Health (Clinical),"DIOUF LEWIS, Jenny",Analysis of music-based interventions for improving reading skills in children with dyslexia and related reading disabilities.,497,South Korea
+Friday,13,3,3,1,Rhythm - swing,"Corcoran, Christopher; Frieler, Klaus","The swing continuum: Analysing jazz soloists’ swing
+eighths using the Weimar Jazz Database",230,Denmark
+Friday,13,3,3,2,Rhythm - swing,"Friberg, Anders; Gulz, Torbjörn; Wettebrandt, Claes",Computer tools for modeling swing timing interactions in a jazz ensemble,595,Sweden
+Friday,13,3,3,3,Rhythm - swing,"Danielsen, Anne; Langerød, Martin Torvik; Nymoen, Kristian; London, Justin",Genre expertise modulates timing perception and micro-level synchronization to auditory stimuli,391,Norway
+Friday,13,5,S,1,The researcher in creative spaces (W),"Levstek, Maruša",The researcher in creative spaces,2028,NA
+Friday,13,6,W,1,ESCOM Annual General Meeting,"Timmers, Renee",ESCOM Annual General Meeting,2008,NA
+Friday,14,1,1,1,"Pitch ability - enhanced, impaired","Loutrari, Ariadne; Ansell, Kathryn; Beaman, Philip; Jiang, Cunmei; Liu, Fang",Auditory imagery in congenital amusia,558,UK
+Friday,14,1,1,2,"Pitch ability - enhanced, impaired","Li, Yike; Creel, Sarah",Tone language enhances consistency in pitch production across domain,453,Germany
+Friday,14,2,2,1,Music preferences,"Kopiez, Reinhard; Weigang, Jan; Platz, Friedrich; Düvel, Nina",Holbrook & Schindler’s (1989) “Song-Specific Age”: Little Evidence for Lifelong Influence of Age-Specific Musical Preferences,209,Germany
+Friday,14,2,2,2,Music preferences,"Anglada-Tort, Manuel; Masters, Nikhil; Steffens, Jochen; Müllensiefen, Daniel",The Behavioural Economics of Music: A framework for investigating music decision making,332,Germany
+Friday,14,3,3,1,"Consonance, tonal stability","Will, Johanna; Roeske, Christina; Degé, Franziska",Innate or acquired preference for consonance?,331,Germany
+Friday,14,3,3,2,"Consonance, tonal stability","Moss, Fabian C.; Herff, Steffen A.; Rohrmeier, Martin",Modeling perceived tonal stability of individual and aggregated listener responses,272,Switzerland
+Friday,14,3,3,3,"Consonance, tonal stability","Fudolig, Mikaela Irene; Hiraoka, Takayuki; Jo, Hang-Hyun; Savage, Patrick E.",Bursty behavior in classical music,286,United States
+Friday,14,4,4,1,Music higher education,"van Ketel, Joram E.; Schaefer, Rebecca S.; Williams, Susan G.",Self-Regulated learning in Conservatoire students: Comparing beliefs and behaviour,681,the Netherlands
+Friday,14,4,4,2,Music higher education,"Phillips, Keith Richard; Sætre, Jon Helge; Habron, John",Work Integrated Learning in the Music Academy,666,1
+Friday,14,5,S,1,Carl Stumpf and his contemporary relevance (S),"Ebeling, Martin",Tone psychology is not psycho-acoustics,154,Germany
+Friday,14,5,S,2,Carl Stumpf and his contemporary relevance (S),"Ebeling, Martin",Tonal fusion,155,Germany
+Friday,14,5,S,3,Carl Stumpf and his contemporary relevance (S),"Heinze, Maria; Stolzenburg, Frieder",Harmony Cognition by Neural Transformation - An Analysis by EEG,159,Germany / Netherlands
+Friday,14,5,S,4,Carl Stumpf and his contemporary relevance (S),"Kowal-Gradl, Reinhard","The concept of a „just-noticeable difference“ in the context of Carl Stumpf and its relation to the human body, its perception and expression.",161,÷sterreich
+Friday,14,5,S,5,Carl Stumpf and his contemporary relevance (S),"Sloboda, John Anthony; Ebeling, Martin; Heinze, Maria (3,4); Stolzenberg, Frieder; Kowal-Gradl, Reinhard",Symposium on Carl Stumpf and his contemporary relevance,160,United Kingdom
+Friday,14,7,W,1,Getting published (BA),"Tan, Siu-Lan",Getting published,2017,NA
+Friday,15,1,K,1,Keynote,"Sanfilippo, Katie Rose M.; McConnell, Bonnie; Darboe, Buba; Huma, Hajara B.; Gaye, Malick; Ceesay, Hassoum; Ramchandani, Paul; Cross, Ian; Cornelius, Victoria; Glover, Vivette; Stewart, Lauren",Testing a community-led music intervention to support antenatal mental health in The Gambia,145,United Kingdom
+Friday,16,1,Pa,1,Imagery & Memory (P),"Herget, Ann-Kristin; Schramm, Holger; Haas, Christina; Polifka, Alina","Exploratory Study on Nostalgic Associations Induced
+by Familiar Title Songs of Children’s Television Series",684,Germany
+Friday,16,1,Pa,2,Imagery & Memory (P),"Liebscher, Frank; Sammler, Daniela",Effects of Retro Sequential Practice (RSP) on Piano Skill Acquisition,153,Germany
+Friday,16,1,Pa,3,Imagery & Memory (P),"Bowmer, Alice; Mason, Kathryn",Response timing relates to accuracy on a motor inhibition task in young children.,578,UK
+Friday,16,1,Pa,4,Imagery & Memory (P),"Ávila-Cascajares, Fátima Sofía; Pérez-Acosta, Gabriela; Porta García, Miguel Ángel",Musicians and non-musicians performance in musical and verbal auditory Sternberg tasks,603,9999
+Friday,16,1,Pa,5,Imagery & Memory: Nature of Cognition (P),"Besada, José L.; Pagán Cánovas, Cristóbal",Grounding time in contemporary compositional practices: Some evidence towards a theoretical model,221,Spain
+Friday,16,1,Pa,6,Imagery & Memory: Nature of Cognition (P),"Wanke, Riccardo; Santarcangelo, Vincenzo",Memory as the aspatial domain for the perception of certain genres of contemporary art music,374,Portugal
+Friday,16,1,Pb,1,Imagery & Memory: Nature of Cognition (P),"Völker, Juliane",Measuring Emotional Music Experience: Spreading Activation and BRECVEMA Mechanisms,139,9999
+Friday,16,1,Pd,6,Imagery (P),"Burgess, Samantha; Camara Halac, Fede; Shanahan, Daniel",Visual Cues as an Aid in the Auditory Stream Segregation of Music,680,USA
+Friday,16,2,Pb,2,Individual differences (P),"Clemente, Ana; Kaplan, Thomas M.; Pearce, Marcus T.",Free Exploration and Free Play in Music,316,Sweden
+Friday,16,2,Pb,3,Individual differences (P),"Iversen, John Rehner; Aftreth, Joel; Hiraga, Rumi",The BEAT test: Assessing fundamental temporal perceptual-motor skills in Deaf and Hard of Hearing and hearing students,676,9999
+Friday,16,2,Pb,4,Individual differences (P),"Lennie, Thomas M.",Cognitive appraisal in musical emotions is grouped around types of meaning: a mixed methodology comparing BRECVEMA and Dimensional-Appraisal mechanisms,648,UK
+Friday,16,2,Pb,5,Individual differences (P),"Michniewicz, Kenneth S.; Edelman, Laura L.; Hersch, Eva R.; Kaufman, Ilissa D.",Why Write Music?: Underdog Status and Mucis Genre Influence Perceived Motivations of Musicians,366,United States
+Friday,16,2,Pb,6,Individual differences (P),"Casavant, Marina N.; Corrigall, Kathleen A.",The Effect of Background Music on Creative Writing,669,Canada
+Friday,16,3,Pc,1,Learning (P),"Swaminathan, Swathi; Schellenberg, E. Glenn","Musical aptitude, music training and digit span in children and adults",658,Canada
+Friday,16,3,Pc,2,Learning (P),"Alves, Anderson César; Nogueira, Marcos Vinicio Cunha",Expert music teacher: model to evaluate pedagogical skills in music performance,104,9999
+Friday,16,3,Pc,3,Learning (P),"Cavasino, Gabriella",SONG-LEADING: AN OVERVIEW ON CONTRASTING DIDACTICS,723,9999
+Friday,16,3,Pc,4,Learning (P),"Iorio, Claudia; Šaban, Iva; Poulin-Charronnat, Bénédicte; Schmidt, James R.",Incidental learning in music reading: a modified version of the musical Stroop task,132,France
+Friday,16,3,Pc,5,Learning (P),"Tan, Emily K.; Keller, Peter; Malloch, Stephen; Burnham, Denis","Sing to Me, Mum: Word Segmentation from Song and Speech in 7-Month-Old Infants",426,1
+Friday,16,3,Pc,6,Learning (P),"Vitali, Aura; Ferrari, Laura",Far from church: Informal music learning in an amateur choir during the lockdown,624,Italy
+Friday,16,3,Pd,1,Learning (P),"Pereira, Marija Mihajlovic; Pereira, Ana Isabel; Nogueira, João",Critical reflection as a tool for self-regulation on children´s instrumental teaching: a qualitative study in the context of individual violin lessons,633,1
+Friday,16,3,Pd,2,Learning (P),"Kaplan, Thomas; Cannon, Jonathan; Jamone, Lorenzo; Pearce, Marcus",Simulating Iterated Reproduction of Musical Rhythms using a Hybrid Probabilistic Model,217,United Kingdom
+Friday,16,3,Pd,3,Learning (P),"Weiss, Michael W.; Charignon, Margot; Peretz, Isabelle",Enhanced learning of vocal over violin melodies in violinists,675,Canada
+Friday,16,3,Pd,4,Learning (P),"Baier, Janina; Wöllner, Clemens; Wolf, Anna",Interpersonal synchronisation and prosocial behaviour in kindergarten children,343,9999
+Friday,16,3,Pd,5,Learning (P),"Michalko, Aleksandra; Campo, Adriaan; Van Dyck, Edith; Leman, Marc",What is technology in music instrument education good for: a survey for violin and drum teachers on technology use,398,9999
+Friday,16,3,Pe,1,Learning: Music & Health (P),"Colverson, Aaron; Williamson, John",Determining relationships between rhythm/timing perception and cognition in healthy aging,113,USA
+Friday,16,3,Pe,2,Learning: Music & Health (P),"Wilson, Imogen","Scatterbrained: Music and ""Hyperfocus,"" in Attention Deficit Hyperactivity Disorder",192,United States
+Friday,16,4,Pe,3,Coordination and timing (P),"Cannon, Jonathan",Rhythm Tracking as Continuous Phase/Tempo Inference: Model and Applications,280,United States
+Friday,16,4,Pe,4,Coordination and timing (P),"Condit-Schultz, Nathaniel; Clark, Beach","Lose the Click, Keep the Beat: An empirical analysis of tempo-(in)stability in popular music",281,USA
+Friday,16,4,Pe,5,Coordination and timing (P),"VanHandel, Leigh; Lookenbill, Zachary; Lopez, Gerardo; McAuley, J. Devin",Rhythmic complexity and tempo anchoring effects in tempo determination,618,Canada
+Friday,17,1,1,1,Attention and listening,"Dumas, Roger E; Beck, Jon; Prust, Aaron; Katz, Gary; Moe, Paul J; El-Said, Dawlat; de Los Angeles, Carlos; Menon, Vinod; Levitin, Daniel J",Predicting musical chill moments with inferential meta-analytics,213,United States
+Friday,17,1,1,2,Attention and listening,"Agrawal, Yudhik; Alluri, Vinoo",Personality correlates of Preferred Emotions through Lyrics,367,India
+Friday,17,1,1,3,Attention and listening,"Robledo del Canto, Juan-Pablo",Assessment of 18 to 24-month-olds' sustained attention to music,457,9999
+Friday,17,2,2,1,Felt emotion,"Bannister, Scott Craig; Acosta, Elizabeth; Bailes, Freya; Greasley, Alinka",‘With Friends Like These’: Exploring Pseudo-Social Music Listening Experiences,650,United Kingdom
+Friday,17,2,2,2,Felt emotion,"Percival, Hannah",Can you hear the connection? An investigation into groove elements and instigators of musical-social bonding,576,USA
+Friday,17,3,3,1,Tonality and gestalts,"A.R, Prathima; Hegde, Shantala; Philip, Mariamma; Kesavan, Muralidharan",Musical and neuro-cognitive deficits in depression: Is there a relationship?,513,India
+Friday,17,3,3,2,Tonality and gestalts,"Cecchetti, Gabriele; Herff, Steffen A.; Rohrmeier, Martin A.",Hearing harmonic functionality in the idiom of extended tonality: Perceptual manifestation of octatonic substitutions,353,Switzerland
+Friday,17,3,3,3,Tonality and gestalts,"Langfeldt, Ville",Gestalt listening: A theoretical and empirical study on holistic harmony perception,315,Norway
+Friday,18,6,C,1,Brittany Anjou Trio (C),"Anjou, Brittany",Brittany Anjou Trio,2010,NA
+Saturday,23 (Fri),1,Pa,1,Memory (P),"Silva Júnior, José Davison; Carthery Goulart, Maria Teresa; Vanzella, Patrícia","Is a picture worth a thousand words? A study of autobiographical memories in healthy elderly evoked by pictures, songs and broadcast news",416,9999
+Saturday,23 (Fri),1,Pa,2,Memory (P),"Santiago, Diana; Lisboa, Tania; Lee, Sophie; Demos, Alexander; Vasconcelos, Mônica",Developing and testing a questionnaire of musical memorization and practice,661,Brazil
+Saturday,23 (Fri),1,Pa,3,Memory (P),"Han, Yo-Jung; Halpern, Andrea; Wöllner, Clemens",Attentional Flexibility in Musicians,565,USA
+Saturday,23 (Fri),2,Pa,4,Felt emotion (P),"Brandt, Zachary",A Comparison of Music- and Film- Evoked Autobiographical Memory,103,9999
+Saturday,23 (Fri),2,Pa,5,Felt emotion (P),"Chea, Darro; Farbood, Morwaread M.",Listening to mixes in the presence of others causes changes in music perception in audio engineers,146,United States
+Saturday,23 (Fri),3,Pa,6,Music in everyday life (P),"Bell, Bryan J.; Albrecht, Joshua",Do Individuals who Report High Levels of Musical Sophistication Also Report High Levels of Musical Exposure in Early Childhood?,178,United States
+Saturday,23 (Fri),3,Pb,1,Music in everyday life (P),"Edelman, Dr. Laura; Harring, Dr. Kathleen; Singman, Alexa; Roppo, Emma; Reiner, Juliana",Type of Music and Type of Synchrony Affect Social Bonding,691,USA
+Saturday,23 (Fri),3,Pb,2,Music in everyday life (P),"Liptak, Taylor A.; Omigie, Diana; Floridou, Georgia A.","""The Beats are Clear, the Rhymes are Bold"": The Role of Tempo and Lyrics on Earworms",364,United States
+Saturday,23 (Fri),3,Pb,3,Music in everyday life (P),"Acevedo, Stefanie",Quantifying the needs of a 21st-century musician: A survey of practical skills and relevant pedagogical practices in music theory,553,USA
+Saturday,23 (Fri),4,Pb,4,Music and language (P),"Calatayud, Patricio Federico; Longoria, Pablo Padilla; Ramírez, Álvaro Martínez","A Mathematical Framework for Reading the
+Autopsias’ System",496,MÈxico
+Saturday,23 (Fri),4,Pb,5,Music and language (P),"Chiu, Matt; Myler, Derek",The impact of language on cadential structure: Evaluating penultimate stress in Polish instrumental music using the Common-Practice Cadence Corpus (CPCC),552,9999
+Saturday,23 (Fri),4,Pb,6,Music and language (P),"White, Christopher; Breen, Mara; Pater, Joe",Text and Melody Delivery in Pre- and Post- Millennial Popular Song: A Corpus Comparison,639,9999
+Saturday,0,1,1,1,Rhythm (Neuro),"Cannon, Jonathan; Patel, Aniruddh D.",A neurophysiological process theory of covert beat- keeping,128,United States
+Saturday,0,1,1,2,Rhythm (Neuro),"Gilmore, Sean Alexander; Nespoil, Gabriel; Copelli, Francesca; Russo, Frank",Subjective groove modulates neural entrainment in premotor and auditory regions,731,Canada
+Saturday,0,1,1,3,Rhythm (Neuro),"Wei, Yi; Large, Edward W.",Dynamic Responses to Syncopated Rhythms Reveal Cortical Sources of Pulse Perception,672,United States
+Saturday,0,2,2,1,Felt emotion,"Michniewicz, Kenneth S.; Edelman, Laura L.; Barrett, Danielle C.; Morales, Angeles X.; Deane, Juiet X.",Music is more Emotionally Moving when Performed by an Underdog,693,United States
+Saturday,0,2,2,2,Felt emotion,"Schubert, Emery","The new aesthetic trinity: Awe, (being) moved and wonder",172,Australia
+Saturday,0,2,2,3,Felt emotion,"Frutuoso, Pedro; de Oliveira, Guilherme Alves Demolin; Vanzella, Patrícia",Young adults’ musical behaviors and well-being during the COVID-19 outbreak,561,Brazil
+Saturday,0,3,3,1,Early years,"Kragness, Haley E.; Cirelli, Laura K.","Effects of song familiarity and groove on children’s
+spontaneous responses to music",300,Canada
+Saturday,0,3,3,2,Early years,"Beck, Sara L","Let It Go: Children’s Interpretation of Song Lyrics in
+a Narrative Context",709,United States
+Saturday,1,1,1,1,EEG,"Rangasayee, Vidya; Fujioka, Takako",Beta-band Neuromagnetic signals indicate imagined Metrical Hierarchy,660,United States
+Saturday,1,1,1,2,EEG,"Nerness, Barbara; Dauer, Tysen; Fujioka, Takako","Pauline Oliveros’s investigations into the effects of
+Sonic Meditations on behavior and neurophysiology",580,United States
+Saturday,1,1,1,3,EEG,"Sauvé, Sarah Anne; Cho, Alex; Rich Zendel, Benjamin",Mapping Tonal Hierarchy in the Brain,255,9999
+Saturday,1,2,2,1,Coordination and timing,"Chiu, Matt; Blake, Andrew","“All the Small Things” : Microtiming Deviations in
+Contemporary Punk",555,United States
+Saturday,1,2,2,2,Coordination and timing,"Klein, Lucas; Bosnyak, Dan; Wood, Emily; Trainor, Laurel J.",Granger causality in sound: Information flow from leading to following violin performances decreases with familiarity,686,Canada
+Saturday,1,2,2,3,Coordination and timing,"Hosken, Fred","The Perception and Discrimination of Different
+Musical “Feels”",423,United States
+Saturday,1,3,3,1,Harmony,"Schwitzgebel, Emily Elizabeth; White, Christopher Wm.",Effects of Chord Inversion and Bass Patterns on Harmonic Expectancy in Musicians,256,USA
+Saturday,1,3,3,2,Harmony,"Song, Sijia {Estelle}; Kowalewski, Douglas; Friedman, Ronald",Exploring Individual Differences in the Preference for Harmony Across Musical Chords and Color Combinations,434,China
+Saturday,1,3,3,3,Harmony,"Poparad, Jeremey",Digging Up Roots: Perception of a Harmonic Root within Three-Note Chords,285,USA
+Saturday,5,1,1,1,Music Perception (Pitch),"McBride, John M.; Tierney, Adam T.; Pfordresher, Peter; Six, Joren; Fuji, Shinya; Savage, Patrick E.",Are pitches discrete? An information-theoretic framework and a corpus study,468,South Korea
+Saturday,5,1,1,2,Music Perception (Pitch),"Kuusi, Tuire; Jimenez, Ivan; Schulkind, Matthew D.","Identifying Beatles Songs from Their Chord Progressions: New Evidence of the Effect of Specialized Harmonic Familiarity, Melodic Cues, and Transposition on the Identification of Songs from Chord Progressions",533,Finland
+Saturday,5,2,2,1,Musical Ability,"Yeom, Daniel; McPherson, Gary E; Mosing, Miriam A; Peretz, Isabelle; Berkovic, Samuel F; Hildebrand, Michael S; Wilson, Sarah J",A methodological review of the evidence for the genetic basis of music ability,500,Australia
+Saturday,5,2,2,2,Musical Ability,"Nisha, KV; Devi, N; Nishant, Nayagam N",Musicality: Innateness and Predictors,694,India
+Saturday,6,1,1,1,Music Perception (Pitch),"Hwang, Yeeun; Albrecht, Joshua","The Relationship Between Affect and Key
+Characteristics in Chopin’s Piano Music",197,Korea- Republic of
+Saturday,6,1,1,2,Music Perception (Rhythm),"Duman, Deniz; Snape, Nerdinga; Toiviainen, Petri; Luck, Geoff",Redefining Groove,520,Finland
+Saturday,6,2,2,1,"Musical Ability, Training, Transfer Effects","Chung, Isabelle Huilin; Filippidi, Ioanna",A Comparison of the Effects of Participant-Selected Music and Experimenter-Selected Music on Creativity,494,Singapore
+Saturday,6,2,2,2,"Musical Ability, Training, Transfer Effects","Parmar, Adya; Shiju, Annika Mariam; Johnson, Naina; Prabhu, Prashanth",DO MUSICIANS HAVE BETTER BINAURAL AUDITORY PROCESSING? - AN EXPLORATORY CROSS- SECTIONAL STUDY,108,INDIA
+Saturday,6,2,2,3,"Musical Ability, Training, Transfer Effects","Umashankar, Abishek; Bhatarai, Prabuddha; Mundayoor, Saranya; Prabhu, Prashanth",EVALUATION OF ENVELOPE REGULARITY DISCRIMINATION ABILITIES IN MUSICIANS AND NON-MUSICIANS,516,India
+Saturday,6,3,3,1,Singing evaluation,"Silas, Sebastian; Müllensiefen, Daniel",Construction and validation of the Melody Singing Task using explanatory item response theory modelling,644,Germany
+Saturday,6,3,3,2,Singing evaluation,"Bruder, Camila; Jacoby, Nori; Poeppel, David; Larrouy-Maestri, Pauline",Predicting aesthetic ratings from the acoustics of sung melodies,376,Germany
+Saturday,8,1,1,1,Music Perception (Timbre),"Lartillot, Olivier; Weisser, Stéphanie","Roughness, crackliness, buzzingness, …: Characterizations of sonic unsteadiness and application to the analysis of traditional music from Ethiopia, Kenya, Morocco and India",614,Norway
+Saturday,8,1,1,2,Music Perception (Timbre) [Best paper],"Hiemstra, Anna; Sadakata, Makiko",Acoustic Vowel Space in the Speech-to-Song Illusion,234,Netherlands
+Saturday,8,2,2,1,Music for shopping and advertisement,"Herget, Ann-Kristin; Schramm, Holger; Bayer, Christina; Werner, Anna-Lena",Musically Flavored? The Influence of Background Music in Audio-Visual Advertising on the Perceived Taste of an Advertised Product,320,Germany
+Saturday,8,2,2,2,Music for shopping and advertisement,"Schofield, Kerry; Anglada-Tort, Manuel; Trahan, Tabitha; Müllensiefen, Daniel",The effects of music as a recognition cue to influence consumer choice in branding and advertising,428,United Kingdom
+Saturday,8,2,2,3,Music for shopping and advertisement,"Makomaska, Sylwia",Between (pseudo)silence and noise – the ontological status of music in the lo-fi environment. The case of contemporary shopping malls.,677,Poland
+Saturday,8,3,3,1,Singing in children,"Lu, Can; Saunders, Jo; Welch, Graham F.",A comparison of singing behaviour of Primary school students in England and China,349,United Kingdom
+Saturday,8,3,3,2,Singing in children,"Wolfs, Zyxcban; Boshuizen, Els",Vocal Abilities in Primary School Children: Do Cognitive Level and Musical Perception Skills Matter?,183,the Netherlands
+Saturday,8,5,S,1,Maria Manturzewska in memoriam (S),"Nogaj, Anna Antonina",The history of the first Polish music psychologist and her influence on the contemporary fields of research and on the psychological activity within the music environment,726,Poland
+Saturday,8,5,S,2,Maria Manturzewska in memoriam (S),"Miklaszewski, Kacper Jan",Maria Manturzewska (1930-2020) and the mystery of human music activity,718,Poland
+Saturday,8,5,S,3,Maria Manturzewska in memoriam (S),"Gembris, Heiner",Maria Manturzewska's Model of the lifespan development of professional musicians in the light of recent research and cultural changes,728,Germany
+Saturday,8,5,S,4,Maria Manturzewska in memoriam (S),"Posluszna, Joanna",The specificity of artistic creativity and the development of the composer's personality in the paradigm of Maria Manturzewska's research,729,Poland
+Saturday,9,5,S,1,Maria Manturzewska in memoriam (S),"Kaleńska-Rodzaj, Julia; Boychuk, Iryna",The Successful Performer: emotion regulation approach to music performance anxiety,701,Poland
+Saturday,9,5,S,2,Maria Manturzewska in memoriam (S),"Chmurzynska, Malgorzata; Kontek, Krzysztof",From the research on the ratings of musical performances by jurors and music experts - from Maria Manturzewska’s experiments up to present studies,712,Poland
+Saturday,9,5,S,3,Maria Manturzewska in memoriam (S),"Sierszenska-Leraczyk, Malgorzata",THE ROLE OF FAMILY ENVIRONMENT IN THE DEVELOPMENT OF MUSICAL TALENTS IN 21ST CENTURY,727,Poland
+Saturday,9,5,S,4,Maria Manturzewska in memoriam (S),"Nogaj, Anna Antonina",The role of psychological counselling centres in professional music education in Poland over the last 70 years,713,Poland
+Saturday,9,1,1,1,Music Perception (Timbre),"Hayes, Ben; Saitis, Charalampos; Fazekas, György",Perceptual and semantic scaling of FM synthesis timbres: Common dimensions and the role of expertise,373,United Kingdom
+Saturday,9,1,1,2,Music Perception (Timbre),"Siedenburg, Kai; Goldmann, Kirsten; van de Par, Steven",Musical scene analysis in 'The Art of the Fugue': Timbral heterogeneity differentially affects younger normal-hearing listeners and older hearing-aid users,303,Germany
+Saturday,9,1,1,3,Music Perception (Timbre),"Noble, Jason; Wallmark, Zachary; Soden, Kit",Comparing Semantics of Individual and Combined Instrument Timbres,598,1
+Saturday,9,2,2,1,Transfer effects,"Cheah, Yi-Ting; Spitzer, Michael; Coutinho, Eduardo",Background Music and Performance on Memory- related Tasks: Preliminary Findings from a Systematic Review,226,United Kingdom
+Saturday,9,2,2,2,Transfer effects,"Perschl, Johanna; Kok, Almar; Wong Chun, Jonathan; Schaefer, Rebecca S.",Effects of musical activities on cognitive functioning in healthy elderly,487,Netherlands
+Saturday,9,2,2,3,Transfer effects,"Leddy, Hannah; Bertello, Lucia; Fiedler, Daniel; Jones Bartoli, Alice; Müllensiefen, Daniel","Musical activity and its relationship with theories of intelligence and musicality, social and academic self-concept, and school engagement",422,United Kingdom
+Saturday,9,3,3,1,Musical engagement,"Ruth, Nicolas; Müllensiefen, Daniel",Survival of musical engagement. Longitudinal investigation of engagement in musical activities in children,120,Germany
+Saturday,9,3,3,2,Musical engagement,"Busch, Veronika; Hienen, Tanja; Lehmann-Wermser, Andreas; Schurig, Eva","What influences music-related capabilities, practices and wellbeing of young adults? Findings from a mixed methods study",216,9999
+Saturday,9,4,4,1,Audio-Visual Cross-modality,"Gram-Nilsen, Elias; Vuoskoski, Jonna Katariina",The influence of the moving image on musical emotions,125,Norge
+Saturday,9,4,4,2,Audio-Visual Cross-modality,"Giannos, Konstantinos; Athanasopoulos, George; Cambouropoulos, Emilios",Cross-modal associations between consonant/dissonant harmonisations and visual stimuli,292,Greece
+Saturday,9,4,4,3,Audio-Visual Cross-modality,"Lange, Elke B.; Fink, Lauren K.",Eyeblink activity during music listening,564,Germany
+Saturday,10,1,1,1,Perceived emotion,"Trevor, Caitlyn; Fernandez, Natalia B.; Frühholz, Sascha",Does scary music mimic biological voice signals of threat?,368,Switzerland
+Saturday,10,1,1,2,Perceived emotion,"Hardt, Susanne; Leigh, John; Rohrmeier, Martin","The Role of Repetition, Ostinati and Sustained Tones in Creating Emotional Effect in Film Music – Three Case Studies",493,Germany
+Saturday,10,2,2,1,Singing performance,"Reed, Courtney N.; McPherson, Andrew P.; Pearce, Marcus T.",The Role of Auditory Imagery and Altered Auditory Feedback in Singers' Timing Accuracy,615,UK
+Saturday,10,2,2,2,Singing performance,"Vurma, Allan","Pitch induced passive ""covering"" of the singing voice",305,Estonia
+Saturday,10,3,3,1,Music and health,"Sittler, Mareike Christina; Weise, Lisette; Jakob, Elisabeth; Töpfer, Nils; Wilz, Gabriele",Individualized Music for People with Dementia in Nursing Homes: Results of a Randomized Controlled Feasibility Study,375,Germany
+Saturday,10,3,3,2,Music and Health,"Coutinho, Eduardo; Dowrick, Chris",POLYHYMNIA Mood – A pilot evaluation of a new app to empower people to cope with low mood and depression through music listening.,194,United Kingdom
+Saturday,10,4,4,1,Joint behaviour,"Schiavio, Andrea; Stupacher, Jan; Parncutt, Richard; Timmers, Renee",Shared responsibilities and participation in musical skill acquisition. Two empirical studies,136,Austria
+Saturday,10,4,4,2,Joint behaviour,"Rizzonelli, Marta; Kim, Jin Hyun; Staudt, Pascal; Lussana, Marcello",Behavioural analysis of sound-based social interaction,521,Italy
+Saturday,11,1,K,1,Keynote,"Patel, Aniruddh",Measuring and modeling melodic expectation using singing: surprising findings and new opportunities for cross-cultural research,2036,NA
+Saturday,12,5,S,1,Global diversity in music cognition (S),"Savage, Patrick E.; Jacoby, Nori; Wood, Anna L. C.; Ozaki, Yuto; Margulis, Elizabeth Hellmuth",Global diversity in music cognition,443,Japan (but will be in New Zealand for conference)
+Saturday,12,5,S,2,Global diversity in music cognition (S),"Jacoby, Nori; Undurraga, Eduardo A.; McPherson, Malinda; Poeppel, Luke; Harrison,
+Peter; Valdes, Joaquın; Ossadon, Tomas; McDermott, Josh H.",Universal and non-universal features musical pitch perception revealed by singing: converging evidence from cross-cultural and online experiments,384,Germany
+Saturday,12,5,S,3,Global diversity in music cognition (S),"Wood, Anna L. C.; Kirby, Kathryn; Ember, Carol; Silbert, Stella; Daikoku, Hideo; McBride, John; Savage, Patrick E.",The Global Jukebox: An interactive database of the expressive arts and culture,442,Canada
+Saturday,12,5,S,4,Global diversity in music cognition (S),"Ozaki, Yuto; McBride, John; Benetos, Emmanouil; Pfordresher, Peter; Six, Joren; Tierney, Adam T.; Proutskova, Polina; Sakai, Emi; Kondo, Haruka; Fukatsu, Haruno; Fujii, Shinya; Savage, Patrick E.",Reliability of automated and human transcriptions of non-Western music,276,Japan
+Saturday,13,5,S,1,Global diversity in music cognition (S),"Margulis, Elizabeth Hellmuth; Wong, Patrick C.M.; Turnbull, Cara; Kubit, Benjamin M.; McAuley, J. Devin",Mapping Musical Narratives,253,United States
+Saturday,13,1,Pa,1,Cross-modality (P),"CHOI, Ahyeon; CHO, WooJae; LEE, Kyogu",The Effect of Sharp and Flat Keys on the perception of senses and emotion,472,South of Korea
+Saturday,13,1,Pa,2,Cross-modality (P),"Czepiel, Anna; Fink, Lauren K.; Seibert, Christoph; Scharinger, Mathias; Kotz, Sonja A.","How live versus recorded piano music influence aesthetic, physiological, and neural responses in a concert setting",414,Germany
+Saturday,13,1,Pa,3,Cross-modality (P),"Dreesbach, Patricia",Musical Pragmatics: Introducing the Intention- Interaction-Expectation-Model,241,Germany
+Saturday,13,1,Pa,4,Cross-modality (P),"Peck, Landon Shaffer-Liggett",Interrelationships of Musical Awe and Virtual Size: Correlations and Granger Causality of Real-Time Perceptions,355,United Kingdom
+Saturday,13,1,Pa,5,Cross-modality (P),"Schruth, David M.",Diversity in connectivity of primate vocal units: associations with socio-ecological contexts,115,United States
+Saturday,13,1,Pa,6,Cross-modality (P),"Talamini, Francesca; Blain, Salomé; Ginzburg, Jérémie; Houix, Olivier; Bouchet, Patrick; Grassi, Massimo; Tillmann, Barbara; Caclin, Anne","Auditory and visual short-term memory in musicians and nonmusicians: influence sensory modality, material type and contour",357,Austria
+Saturday,13,1,Pb,1,Cross-modality (P),"Goltz, Franziska; Sadakata, Makiko",Do people listen to music while studying? An explorative study on optimizing cognitive performance with background music.,170,Netherlands
+Saturday,13,1,Pb,2,Cross-modality (P),"Papatzikis, Efthymios; Naveena, Rosari; Shannaiah Aubrey Mae, Inocencio; Mahmoud, ElHalik; Swarup Kumar, Dash; Ayeda Salim, AbouNiaj; Faseela Shejeed Haris Kodi Valappil, Muhammed; Nazreen Abdulla, Haroon; Antonia, Bezoni",Very early music versus language perception and its impact on the infant brainstem development: an EEG-ABR feasibility study,208,Norway
+Saturday,13,1,Pb,3,Cross-modality: Audiovisual/Sound & Vision (P),"Chiba, Gakuto; Fujii, Shinya; Savage, Patrick E.",Sight vs. sound in the judgment of music performance: evidence from Tsugaru shamisen competitions in Japan,348,Japan
+Saturday,13,1,Pb,4,Cross-modality: Audiovisual/Sound & Vision (P),"Nogueira, Cristiane; Rodrigues, Helena; Pereira, Ana Isabel",The bouba-kiki effect: connections between the auditory and visual senses in the musical appreciation,617,Portugal
+Saturday,13,1,Pb,5,Cross-modality: Audiovisual/Sound & Vision (P),"Rudenko, Svetlana; Ward, Jamie; McDonnell, Maura; Layden, Timothy",Music Consciousness: Lessons from Synaesthesia and Art on Music,424,Ireland
+Saturday,13,1,Pb,6,Cross-modality: Audiovisual/Sound & Vision (P),"Orlandatou, Konstantina; Küssner, Mats",Sound-colour synaesthesia and music-induced  visual mental imagery: a shared continuum of cross- modal experiences,492,Germany
+Saturday,13,1,Pc,1,Cross-modality: Audiovisual/Sound & Vision (P),"Dasmahapatra, Banatanwi; Singh, Navjyoti","Blending of Sound and Vision: Analyzing Rāgamālā
+Paintings in Association with Hindustani Music",401,India
+Saturday,13,2,Pc,2,"Musical Ability, Training, Transfer Effects (P)","Gomez, Tessy Henry; T, Suresh; Gore, Madhuri; Joseph, Alphonsa; Bhat, Rashmi J",EFFECT OF SHORT TERM MUSICAL TRAINING (TABLA) ON FEW COGNITIVE AND AUDITORY PERCEPTUAL TASKS.,400,India
+Saturday,13,2,Pc,3,"Musical Ability, Training, Transfer Effects (P)","Levstek, Maruša; Banerjee, Robin",A model of psychological mechanisms of inclusive music-making: Empowerment of marginalised young people,190,United Kingdom
+Saturday,13,2,Pc,4,"Musical Ability, Training, Transfer Effects (P)","Maruyama, Shin; Ogino, Misako; Yoshimura, Asami; Sawamizu, Mao",Exploration of the musical instrument: Longitudinal observation of infant–mother play with sound- producing toys,460,Japan
+Saturday,13,2,Pc,5,"Musical Ability, Training, Transfer Effects (P)","Li, Jiaxin; Wolf, Anna; Lin, Hsin-Rui; Lothwesen, Kai",Validation and Replication of the Gold-MSI with a Sample of Chinese General Population,274,Germany
+Saturday,13,2,Pc,6,"Musical Ability, Training, Transfer Effects (P)","Nordan, Nathalie Elaine; VanHandel, Leigh; McAuley, J. Devin",Effects of Musicianship on Hypermetrical Interpretation of Rhythms,642,United States
+Saturday,13,2,Pf,1,"Musical Ability, Training, Transfer Effects (P)","Goyal, Neha; Rathee, Neelam",EFFECT OF BACKGROUND MUSIC ON WORKING MEMORY,708,India
+Saturday,13,2,Pf,2,"Musical Ability, Training, Transfer Effects (P)","Sanjana, M; Nisha, KV",Exploring the Differences in Auditory Spatial Processing Between Instrumental and Vocal Musicians,720,India
+Saturday,13,2,Pf,3,"Musical Ability, Training, Transfer Effects (P)","Wolfs, Zyxcban; Boshuizen, Els","The Role of Tonal Abilities, Position Knowledge, and Orchestra Experience in Cellists’ Sight-Reading Performance",184,Netherlands
+Saturday,13,3,Pd,1,Individual differences (P),"Wilson, Johanna N.; Thompson, Marc; Saarikallio, Suvi",Exploring Music Videos Listening Experiences and Outcomes – A Survey Approach,534,United States
+Saturday,13,3,Pd,2,Individual differences (P),"Harris, Muhammed Yaseen; Alluri, Vinoo",Case Study: Appreciation of Complex Music in a Cognitively Impaired Subject,621,India
+Saturday,13,3,Pd,3,Individual differences (P),"Guru Ravi Shanker, Ramaguru; Agrawal, Yudhik; Alluri, Vinoo",Personality Traits and preference for Instrumental Music on music streaming platforms,481,9999
+Saturday,13,3,Pd,4,Individual differences (P),"Subramanian, Sidhant; Mittal, Anant; Vuoskoski, Jonna; Alluri, Vinoo",Music or Lyrics? Individual differences associated with listening strategies,262,India
+Saturday,13,3,Pd,5,Individual differences (P),"Mathew Jose, Joel; Wagani, Rekha",Empathy and Mindfulness based on Various Genres in Professional Singers,711,9999
+Saturday,13,4,Pe,1,Clinical (P),"Hande, Vasudha; Hegde, Shantala; Jacob, Preeti; Philip, Mariamma","Musical rhythm perception and phonological processing in children with specific learning disability, typically developing children with and without music training: A pilot study",560,9999
+Saturday,13,4,Pe,2,Clinical (P),"Yeo, Myung Sun; Kim, Soo Ji",Case of a Real-Time Online Music Therapy to Improve Voice and Swallowing Function of the Patient with Unilateral Vocal Fold Paralysis,484,Korea
+Saturday,13,4,Pe,3,Clinical (P),"Varadarajan, Suguna",Effect of therapeutic music during the withdrawal phase of drug/alcohol addicts in de-addiction centers,131,India
+Saturday,13,4,Pe,4,Clinical (P),"Wang, Li; Beaman, C. Philip; Jiang, Cunmei; Liu, Fang",Perception and production of statement-question intonation in autism spectrum disorder: A developmental investigation,167,China
+Saturday,13,4,Pe,5,Clinical (P),"Finnerty, Rachael; Trainor, Laurel",Online group music therapy: A proactive mental health option,445,Canada
+Saturday,14,1,1,1,Rhythm and timing,"Wolf, Thomas; Sebanz, Natalie; Knoblich, Günther",Joint rushing depends on continuous input from co- performers,483,Austria
+Saturday,14,1,1,2,Rhythm and timing,"Braun Janzen, Thenille; Balardin, Joana B.; Sato, João R.; Vanzella, Patricia",Interpersonal coordination in ensemble performance: neural correlates of joint action at key structural points of the music,105,Brazil
+Saturday,14,2,2,1,Performance and improvisation,"Stachó, László","The influence of performers’ real-time analytical
+knowledge on listeners’ appraisal of performances",152,Hungary
+Saturday,14,2,2,2,Performance and improvisation,"Santos, Thaís Fernandes; Gerling, Cristina Capparelli",Musician perception: conscious of the sound production and lack awareness of body movement,296,Brazil
+Saturday,14,2,2,3,Performance and improvisation,"Schlegel, Amanda; Springer, Greg; Harrington, Ann",Wind Instrumentalists Focused Attention to Pitch and Timbre,509,United States of America
+Saturday,14,3,3,1,Memory,"Lamont, Alexandra; Loveday, Catherine; Casas Mas, Amalia; Christina, Anagnostopoulou; Taruffi, Liila",Desert Island Discs: Favourite music for times of crisis,535,France
+Saturday,14,3,3,2,Memory,"Cho, Eun; Graham, Owain. J.; Chagas, Paulo C.",Music-evoked autobiographical memories and nostalgia : A study of a young adult cohort,404,USA
+Saturday,14,3,3,3,Felt emotion,"Clemente, Ana; Friberg, Anders; Holzapfel, André",Perceived Affect in Sensory Valuation Across Domains,314,Sweden
+Saturday,14,4,4,1,Felt emotion,"Schäfer, Thomas; Kreuzburg, Patricia",They shall dance! A comparison of the effects of dancing to electronic music and the additional intake of illegal drugs on the experience of ecstatic trance,277,Germany
+Saturday,14,4,4,2,Felt emotion [Best paper],"Lennie, Thomas M.",Future Directions in Music & Emotion Science: what skeptical models of emotion can add to music & emotion science,647,UK
+Saturday,14,5,S,1,Mental Imagery (S),"Küssner, Mats B.; Taruffi, Liila",Symposium: Mental Imagery,377,Germany
+Saturday,14,5,S,3,Mental Imagery (S),"Wilain, Stephanie; Omigie, Diana; Küssner, Mats B.; Taruffi, Liila; Floridou, Georgia A.",The Multimodal Mental Imagery of Music Scale (MMIMS): A novel instrument for measuring individual differences in multimodal mental imagery during music listening,370,Belgique
+Saturday,14,5,S,3,Mental Imagery (S),"Hashim, Sarah; Küssner, Mats B.; Weinreich, André; Omigie, Diana",Predicting Music-Induced Visual Imagery using Occipital Alpha,674,United Kingdom
+Saturday,15,5,S,2,Mental Imagery (S),"Herff, Steffen A.; Taruffi, Liila; Cecchetti, Gabriele; Déguernel, Ken",Empirical characterisation of the effect of music on imagination,269,Switzerland
+Saturday,15,5,S,2,Mental Imagery (S),"Pérez-Acosta, Gabriela",Understanding mental representations during performance practice through the experience of expert musicians,431,Mexico
+Saturday,15,1,1,1,Rhythm and timing,"Kim, Ji Chul; Hall, Caitrín; Paxton, Alexandra; Large, Edward W.",Dynamical systems modeling of human-metronome phasing performance,519,USA
+Saturday,15,1,1,2,Rhythm and timing,"Park, Seok Beom; Lee, Kyung Myun",Effects of microtiming deviations between two instruments on the groove experience.,528,Korea
+Saturday,15,2,2,1,Performance and improvisation,"Pearson, Lara; Pouw, Wim","Gesture-vocalization coupling: Connectivity between sound, body and forces in Karnatak vocal performance",388,Germany
+Saturday,15,2,2,2,Performance and improvisation,"Cross, Peter; Goldman, Andrew Jacob",Lick Occurrence is Dependent on Metrical Placement in Jazz Solos,135,USA
+Saturday,15,3,3,1,Memory,"Jakubowski, Kelly; Belfi, Amy; Eerola, Tuomas",Age and gender differences in music-evoked autobiographical memories,119,UK
+Saturday,15,3,3,2,Memory,"Jakubowski, Kelly; Eerola, Tuomas","Is music distinctive as a cue for autobiographical memories? Comparing emotionally matched music, sounds, and words as retrieval cues",121,UK
+Saturday,15,3,3,3,Memory,"Spyra, Joanna M.; Woolhouse, Matthew",Contribution of Surface Features on Large-Scale Tonal Memory,653,Canada
+Saturday,16,1,K,1,Closing Session,"Doffman, Mark",Closing session and plenary discussion,2011,UK
