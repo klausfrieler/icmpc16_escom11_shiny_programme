@@ -37,6 +37,12 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
                      "country")
   master <- master %>% 
     mutate(authors = str_replace(authors, "\\([0-9,]+\\)", "")) %>% 
+    mutate(authors = str_replace(authors, "Fink, Lauren K.", "XXXXX")) %>% 
+    mutate(authors = str_replace(authors, "Fink, Lauren", "Fink, Lauren K.")) %>% 
+    mutate(authors = str_replace(authors, "XXXXX", "Fink, Lauren K.")) %>% 
+    mutate(authors = str_replace(authors, "Krause, Amanda E\\.", "XXXXX")) %>% 
+    mutate(authors = str_replace(authors, "Krause, Amanda E", "Krause, Amanda E.")) %>% 
+    mutate(authors = str_replace(authors, "XXXXX", "Krause, Amanda E.")) %>% 
     mutate(authors = str_replace(authors,"\\\r\\\n", "")) %>% 
     mutate(first_author = str_split(authors, ";") %>% map_chr(., ~{.x[[1]][1] %>% trimws()})) %>% 
     mutate(last_author = get_last_author(authors)) %>% 
