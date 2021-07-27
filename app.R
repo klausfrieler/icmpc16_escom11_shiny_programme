@@ -39,7 +39,11 @@ ui <- fluidPage(
                         multiple = F, selectize = T),
             selectInput(inputId = "day", 
                         label = "Day",
-                        choices = c("All", unique(master$real_day)), selected = "All",
+                        choices = c("All", unique(days)), selected = "All",
+                        multiple = F, selectize = T),
+            selectInput(inputId = "time", 
+                        label = "Time",
+                        choices = c("All", unique(master$time_utc)), selected = "All",
                         multiple = F, selectize = T),
             selectInput(inputId = "hub", 
                         label = "Time Hub",
@@ -50,16 +54,24 @@ ui <- fluidPage(
                         choices = tz, selected = "time_utc",
                         multiple = F, selectize = T),
             p(
-                "ICMPC/ESCOM 2021 programme browser v0.2", 
+                "ICMPC16/ESCOM11 Navigator v0.3", 
                 shiny::tags$br(), 
                 shiny::tags$br(), 
-                "Author: Klaus Frieler, Max Planck Institute for Empirical Aesthetics, Frankfurt/M, Germany",
+                "Author: Klaus Frieler", 
+                shiny::tags$br(), 
+                shiny::a(href = "https://www.aesthetics.mpg.de/en.html", 
+                         "Max Planck Institute for Empirical Aesthetics, Frankfurt/M, Germany", 
+                         target = "_blank"),
                 shiny::tags$br(), 
                 shiny::tags$br(),
-                "Data provided by Michael Weiss", 
+                "Data provided by", 
+                shiny::a(href = "https://m-w-w.github.io/", "Michael Weiss", target = "_blank"), 
                 shiny::tags$br(),
                 shiny::tags$br(), 
-                "Powered by the Deutsche Gesellschaft für Musikspsychologie",
+                "Powered by",
+                shiny::tags$br(),
+                shiny::a(href = "http://www.music-psychology.de/",
+                "Deutsche Gesellschaft für Musikspsychologie", target = "_blank"),
                 shiny::tags$br(),
                 shiny::tags$br(), 
                 "Hint: All drop boxes have incremental search functions. Use also the table search.",
@@ -86,9 +98,16 @@ server <- function(input, output) {
         # generate bins based on input$bins from ui.R
         #browser()
         data <- master
+        day_zone <- str_replace(input$time_zone, "time_", "day_")
+        
         if(input$day != "All"){
             data <- data %>% 
-                filter(real_day %in% input$day) 
+                filter(!!sym(day_zone) %in% input$day) 
+        }
+        if(input$time != "All"){
+            data <- data %>% 
+                mutate(hours = substr(!!sym(input$time_zone), 1, 2)) %>% 
+                filter(hours %in% substr(input$time, 1, 2)) 
         }
         if(input$filter_name != "All"){
             data <- data %>% 
@@ -112,10 +131,11 @@ server <- function(input, output) {
         }
         data %>% 
             select(input$time_zone, !starts_with("time")) %>% 
+            select(day_zone, !starts_with("day")) %>% 
             distinct(authors, title, .keep_all = T) %>% 
-            select(-day, -theme) %>% 
+            select(-theme) %>% 
             mutate(strand = as.integer(strand)) %>% 
-            select(day = real_day, starts_with("time"), type = slot_type_long, 
+            select(day_zone, input$time_zone, type = slot_type_long, 
                    theme = theme_cleaned, authors, title, strand, room, order, abstract_id)
             #select(-day, day = real_day, -full_name, -first_author, -last_author, -hub, -theme, theme = theme_cleaned, -slot_type, type = slot_type_long, -last_name, -poster_slot, -country)
     })

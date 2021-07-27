@@ -19,6 +19,38 @@ time_zones <- c("time_utc" = "Universal Time", "time_cest" = "Central European S
                 "time_aest" = "Australian Eastern Standard Time")
 tz <- names(time_zones)
 names(tz) <- time_zones
+
+tz_offset <- c("utc" = 0, "cest" = 2, "gmt" = 1, "ist" = 5.5, "cdt" = -5, "aest" = 10)
+days <- c("Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+
+get_tz_day <- function(day, time_utc, timezone){
+  if(length(day) > 1 ){
+    return(map2_chr(day, time_utc, function(x,y) get_tz_day(x, y, timezone)))
+  }
+  #browser()
+  real_time <- time_utc + tz_offset[timezone]
+  real_day <- day
+  if(real_time >= 24 ){
+    day_map <- days %>% lead(1)
+    names(day_map) <- days
+    real_day <- day_map[day]    
+  }
+  if(real_time < 0 ){
+    day_map<- days %>% lag(1)
+    names(day_map) <- days
+    real_day <- day_map[day]    
+  }
+  as.vector(real_day)
+}
+
+fix_days <- function(data){
+  day_map <- days %>% lag(1)
+  names(day_map) <- days
+  data$day_utc <- data$day
+  data[str_detect(data$time_utc, "23"),]$day_utc <- day_map[data[str_detect(data$time_utc, "23"),]$day_utc]
+  data
+}
+
 get_last_author <- function(authors){
   if(length(authors) > 1){
     return(map_chr(authors, function(x) get_last_author(x)))
@@ -30,20 +62,22 @@ get_last_author <- function(authors){
   elems[length(elems)]
   
 }
-fix_days <- function(data){
-  day_map <- unique(master$day) %>% lag(1)
-  names(day_map) <- unique(data$day)
-  data$real_day <- data$day
-  data[str_detect(data$time_utc, "23"),]$real_day <- day_map[data[str_detect(data$time_utc, "23"),]$real_day]
-  data
-}
+
 setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
   
   master <- readr::read_csv(fname)
   names(master) <- c("day", "time_utc", "strand", "room", "order", "theme", "authors", "title", "abstract_id", 
                      "country")
   assign("master_raw", master, globalenv())
-  master <- fix_days(master)
+  master <- fix_days(master) %>%  
+    mutate(time_utc =  str_replace_all(time_utc, "\\([a-zA-Z]+\\)", "") %>% trimws() %>% as.integer()) %>% 
+    mutate(day_cdt = get_tz_day(day_utc, as.integer(time_utc), "cdt"),
+           day_ist = get_tz_day(day_utc, as.integer(time_utc), "ist"),
+           day_aest = get_tz_day(day_utc, as.integer(time_utc), "aest"),
+           day_cest = get_tz_day(day_utc, as.integer(time_utc), "cest"),
+           day_gmt = get_tz_day(day_utc, as.integer(time_utc), "gmt"))
+  
+  assign("master_time", master, globalenv())
   master <- master %>% 
     mutate(authors = str_replace(authors, "\\([0-9,]+\\)", "")) %>% 
     mutate(authors = str_replace(authors, "Fink, Lauren K.", "XXXXX")) %>% 
@@ -59,8 +93,7 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
     unnest(full_name) %>% 
     mutate(last_name = str_split(full_name, ",") %>% map_chr(., ~{.x[[1]][1]})) %>% 
     mutate(full_name = trimws(full_name)) %>% 
-    mutate(last_name = trimws(last_name)) %>% 
-    mutate(time_utc =  str_replace_all(time_utc, "\\([a-zA-Z]+\\)", "") %>% trimws() %>% as.numeric()) 
+    mutate(last_name = trimws(last_name)) 
     master <- master %>%
     mutate(hub = case_when(time_utc >= 8 & time_utc <= 18 ~ "08:00-18:00", 
                                   time_utc >= 23 | time_utc <= 2 ~ "23:00-02:00", 
