@@ -58,7 +58,7 @@ ui <- fluidPage(
                 "Powered by the Deutsche Gesellschaft für Musikspsychologie",
                 shiny::tags$br(),
                 shiny::tags$br(), 
-                "Hint: All drop boxes have incremental search functions. Use can also use the table search in the right top corner",
+                "Hint: All drop boxes have incremental search functions. Use also the table search.",
                 shiny::tags$br(),
                 shiny::tags$br(), 
                 "Stay tuned for further updates. Have fun!",
