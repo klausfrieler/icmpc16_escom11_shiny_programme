@@ -49,7 +49,7 @@ ui <- fluidPage(
                 "ICMPC/ESCOM 2021 programme browser v0.1", 
                 shiny::tags$br(), 
                 shiny::tags$br(), 
-                "Author: Klaus Frieler, Max Planck Institute for Empicial Aesthetics, Frankfurt/M, Germany",
+                "Author: Klaus Frieler, Max Planck Institute for Empirical Aesthetics, Frankfurt/M, Germany",
                 shiny::tags$br(), 
                 shiny::tags$br(),
                 "Data provided by Mike Weiss", 
@@ -58,7 +58,10 @@ ui <- fluidPage(
                 "Powered by the Deutsche Gesellschaft für Musikspsychologie",
                 shiny::tags$br(),
                 shiny::tags$br(), 
-                "Hint: All drop boxes have incremental search function.",
+                "Hint: All drop boxes have incremental search functions. Use can also use the table search in the right top corner",
+                shiny::tags$br(),
+                shiny::tags$br(), 
+                "Stay tuned for further updates. Have fun!",
                 style = "font-size: 10pt; display: block"
             ),
             width = 2
