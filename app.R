@@ -52,7 +52,7 @@ ui <- fluidPage(
                 "Author: Klaus Frieler, Max Planck Institute for Empirical Aesthetics, Frankfurt/M, Germany",
                 shiny::tags$br(), 
                 shiny::tags$br(),
-                "Data provided by Mike Weiss", 
+                "Data provided by Michael Weiss", 
                 shiny::tags$br(),
                 shiny::tags$br(), 
                 "Powered by the Deutsche Gesellschaft für Musikspsychologie",
