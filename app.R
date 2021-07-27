@@ -25,6 +25,10 @@ ui <- fluidPage(
                         label = "Author",
                         choices = c("All", sort(unique(master$full_name))), selected = "All",
                         multiple = F, selectize = T),
+            selectInput(inputId = "first_author", 
+                        label = "First Author",
+                        choices = c("All", sort(unique(master$first_author))), selected = "All",
+                        multiple = F, selectize = T),
             selectInput(inputId = "theme_cleaned", 
                         label = "Theme",
                         choices = c("All", sort(unique(master$theme_cleaned))), selected = "All",
@@ -35,7 +39,7 @@ ui <- fluidPage(
                         multiple = F, selectize = T),
             selectInput(inputId = "day", 
                         label = "Day",
-                        choices = c("All", unique(master$day)), selected = "All",
+                        choices = c("All", unique(master$real_day)), selected = "All",
                         multiple = F, selectize = T),
             selectInput(inputId = "hub", 
                         label = "Time Hub",
@@ -46,7 +50,7 @@ ui <- fluidPage(
                         choices = tz, selected = "time_utc",
                         multiple = F, selectize = T),
             p(
-                "ICMPC/ESCOM 2021 programme browser v0.1", 
+                "ICMPC/ESCOM 2021 programme browser v0.2", 
                 shiny::tags$br(), 
                 shiny::tags$br(), 
                 "Author: Klaus Frieler, Max Planck Institute for Empirical Aesthetics, Frankfurt/M, Germany",
@@ -84,11 +88,15 @@ server <- function(input, output) {
         data <- master
         if(input$day != "All"){
             data <- data %>% 
-                filter(day %in% input$day) 
+                filter(real_day %in% input$day) 
         }
         if(input$filter_name != "All"){
             data <- data %>% 
                 filter(full_name %in% input$filter_name) 
+        }
+        if(input$first_author != "All"){
+            data <- data %>% 
+                filter(first_author %in% input$first_author) 
         }
         if(input$hub != "All"){
             data <- data %>% 
@@ -105,7 +113,11 @@ server <- function(input, output) {
         data %>% 
             select(input$time_zone, !starts_with("time")) %>% 
             distinct(authors, title, .keep_all = T) %>% 
-            select(-full_name, -first_author, -last_author, -hub, -theme, theme = theme_cleaned, -slot_type, type = slot_type_long, -last_name, -poster_slot, -country)
+            select(-day, -theme) %>% 
+            mutate(strand = as.integer(strand)) %>% 
+            select(day = real_day, starts_with("time"), type = slot_type_long, 
+                   theme = theme_cleaned, authors, title, strand, room, order, abstract_id)
+            #select(-day, day = real_day, -full_name, -first_author, -last_author, -hub, -theme, theme = theme_cleaned, -slot_type, type = slot_type_long, -last_name, -poster_slot, -country)
     })
 }
 

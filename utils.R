@@ -30,11 +30,20 @@ get_last_author <- function(authors){
   elems[length(elems)]
   
 }
+fix_days <- function(data){
+  day_map <- unique(master$day) %>% lag(1)
+  names(day_map) <- unique(data$day)
+  data$real_day <- data$day
+  data[str_detect(data$time_utc, "23"),]$real_day <- day_map[data[str_detect(data$time_utc, "23"),]$real_day]
+  data
+}
 setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
   
   master <- readr::read_csv(fname)
   names(master) <- c("day", "time_utc", "strand", "room", "order", "theme", "authors", "title", "abstract_id", 
                      "country")
+  assign("master_raw", master, globalenv())
+  master <- fix_days(master)
   master <- master %>% 
     mutate(authors = str_replace(authors, "\\([0-9,]+\\)", "")) %>% 
     mutate(authors = str_replace(authors, "Fink, Lauren K.", "XXXXX")) %>% 
@@ -62,6 +71,7 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
            time_cdt = (time_utc - 5)  %% 24,
            time_aest = (time_utc + 10) %% 24) %>% 
     mutate_at(vars(starts_with("time")), format_time) %>% 
+    mutate(slot_type = substr(room, 1, 1), poster_slot = substr(room, 2, 2)) %>% 
     mutate(slot_type = substr(room, 1, 1), poster_slot = substr(room, 2, 2)) %>% 
     mutate(slot_type_long = slot_codes[slot_type]) %>% 
     mutate(theme_cleaned = str_replace(theme, "\\([A-Z]{1}\\)", "") %>% 
