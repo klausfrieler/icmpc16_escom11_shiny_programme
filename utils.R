@@ -14,7 +14,7 @@ slot_codes <- c("P" = "Poster",
                 "3" = "Talk", 
                 "4" = "Talk")
 time_zones <- c("time_utc" = "Universal Time", "time_cest" = "Central European Summer Time",
-                "time_ist" = "Indian Standard Time", "time_bst" = "Britisch Summer Time",
+                "time_ist" = "Indian Standard Time", "time_bst" = "British Summer Time",
                 "time_cdt" = "Central Daylight Time", 
                 "time_aest" = "Australian Eastern Standard Time")
 tz <- names(time_zones)

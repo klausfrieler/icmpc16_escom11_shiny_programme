@@ -54,7 +54,7 @@ ui <- fluidPage(
                         choices = tz, selected = "time_utc",
                         multiple = F, selectize = T),
             p(
-                "ICMPC16/ESCOM11 Navigator v0.3", 
+                "ICMPC16/ESCOM11 Navigator v0.4", 
                 shiny::tags$br(), 
                 shiny::tags$br(), 
                 "Author: Klaus Frieler", 
