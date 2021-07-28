@@ -12,6 +12,11 @@ library(shiny)
 source("utils.R")
 setup_workspace()
 
+time_strings <- union(master$time_utc, 
+                      union(master$time_cest, union(master$time_bst, 
+                                                    union(master$time_aest, master$time_cdt)))) %>% 
+    sort()
+
 # Define UI for application that draws a histogram
 ui <- fluidPage(
 
@@ -43,7 +48,7 @@ ui <- fluidPage(
                         multiple = F, selectize = T),
             selectInput(inputId = "time", 
                         label = "Time",
-                        choices = c("All", unique(master$time_utc)), selected = "All",
+                        choices = c("All", time_strings[c(9:24, 1:8)]), selected = "All",
                         multiple = F, selectize = T),
             selectInput(inputId = "hub", 
                         label = "Time Hub",
