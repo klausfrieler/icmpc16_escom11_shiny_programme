@@ -50,7 +50,7 @@ ui <- fluidPage(
                         choices = c("All", unique(master$hub)), selected = "All",
                         multiple = F, selectize = T),
             selectInput(inputId = "time_zone", 
-                        label = "Time ",
+                        label = "Time Zone",
                         choices = tz, selected = "time_utc",
                         multiple = F, selectize = T),
             p(

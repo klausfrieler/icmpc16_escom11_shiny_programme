@@ -14,13 +14,13 @@ slot_codes <- c("P" = "Poster",
                 "3" = "Talk", 
                 "4" = "Talk")
 time_zones <- c("time_utc" = "Universal Time", "time_cest" = "Central European Summer Time",
-                "time_ist" = "Indian Standard Time", "time_gmt" = "Greenwich Mean Time",
+                "time_ist" = "Indian Standard Time", "time_bst" = "Britisch Summer Time",
                 "time_cdt" = "Central Daylight Time", 
                 "time_aest" = "Australian Eastern Standard Time")
 tz <- names(time_zones)
 names(tz) <- time_zones
 
-tz_offset <- c("utc" = 0, "cest" = 2, "gmt" = 1, "ist" = 5.5, "cdt" = -5, "aest" = 10)
+tz_offset <- c("utc" = 0, "cest" = 2, "bst" = 1, "ist" = 5.5, "cdt" = -5, "aest" = 10)
 days <- c("Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 
 get_tz_day <- function(day, time_utc, timezone){
@@ -75,7 +75,7 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
            day_ist = get_tz_day(day_utc, as.integer(time_utc), "ist"),
            day_aest = get_tz_day(day_utc, as.integer(time_utc), "aest"),
            day_cest = get_tz_day(day_utc, as.integer(time_utc), "cest"),
-           day_gmt = get_tz_day(day_utc, as.integer(time_utc), "gmt"))
+           day_bst = get_tz_day(day_utc, as.integer(time_utc), "bst"))
   
   assign("master_time", master, globalenv())
   master <- master %>% 
@@ -99,7 +99,7 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
                                   time_utc >= 23 | time_utc <= 2 ~ "23:00-02:00", 
                                   TRUE ~ "05:00-07:00")) %>% 
     mutate(time_cest = (time_utc  + 2) %% 24, 
-           time_gmt = (time_utc + 1)  %% 24, 
+           time_bst = (time_utc + 1)  %% 24, 
            time_ist = (time_utc  + 5.5)  %% 24, 
            time_cdt = (time_utc - 5)  %% 24,
            time_aest = (time_utc + 10) %% 24) %>% 
