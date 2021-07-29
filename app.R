@@ -50,16 +50,20 @@ ui <- fluidPage(
                         label = "Time",
                         choices = c("All", time_strings[c(9:24, 1:8)]), selected = "All",
                         multiple = F, selectize = T),
-            selectInput(inputId = "hub", 
-                        label = "Time Hub",
-                        choices = c("All", unique(master$hub)), selected = "All",
-                        multiple = F, selectize = T),
+            # selectInput(inputId = "hub", 
+            #             label = "Time Hub",
+            #             choices = c("All", unique(master$hub)), selected = "All",
+            #             multiple = F, selectize = T),
             selectInput(inputId = "time_zone", 
                         label = "Time Zone",
                         choices = tz, selected = "time_utc",
                         multiple = F, selectize = T),
+            selectInput(inputId = "abstract_id", 
+                        label = "Abstract ID",
+                        choices = c("All", sort(na.omit(unique(master$abstract_id)))), selected = "All",
+                        multiple = F, selectize = T),
             p(
-                "ICMPC16/ESCOM11 Navigator v0.4", 
+                "ICMPC16/ESCOM11 Navigator v0.5", 
                 shiny::tags$br(), 
                 shiny::tags$br(), 
                 "Author: Klaus Frieler", 
@@ -122,16 +126,21 @@ server <- function(input, output) {
             data <- data %>% 
                 filter(first_author %in% input$first_author) 
         }
-        if(input$hub != "All"){
-            data <- data %>% 
-                filter(hub %in% input$hub) 
-        }
+        # if(input$hub != "All"){
+        #     data <- data %>% 
+        #         filter(hub %in% input$hub) 
+        # }
         if(input$theme_cleaned != "All"){
             data <- data %>% 
                 filter(theme_cleaned %in% input$theme_cleaned) 
         }
         if(input$slot_type != "All"){
             data <- data %>% filter(slot_type_long %in% input$slot_type) 
+            
+        }
+        if(input$abstract_id != "All"){
+            browser()
+            data <- data %>% filter(abstract_id %in% input$abstract_id) 
             
         }
         data %>% 
