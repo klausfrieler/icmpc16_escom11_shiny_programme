@@ -152,7 +152,7 @@ server <- function(input, output) {
             select(day_zone, input$time_zone, type = slot_type_long, 
                    theme = theme_cleaned, authors, title, strand, room, order, abstract_id)
             #select(-day, day = real_day, -full_name, -first_author, -last_author, -hub, -theme, theme = theme_cleaned, -slot_type, type = slot_type_long, -last_name, -poster_slot, -country)
-    })
+    }, options = list(lengthMenu = list(c(25, 50,  -1), c("25", "50",  "All"))))
 }
 
 # Run the application 
