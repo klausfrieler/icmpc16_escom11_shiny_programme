@@ -1,4 +1,7 @@
-messagef <- function(...) messagef(sprintf(...))
+library(tidyverse)
+
+messagef <- function(...) message(sprintf(...))
+
 format_time <- function(time){
   suffix <- rep("00", length(time))
   suffix[floor(time) != time] <- "30"
@@ -22,6 +25,9 @@ names(tz) <- time_zones
 
 tz_offset <- c("utc" = 0, "cest" = 2, "bst" = 1, "ist" = 5.5, "cdt" = -5, "aest" = 10)
 days <- c("Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+names(days) <- as.character(28:31)
+day_select <- days[Sys.time() %>% lubridate::day() %>% as.character()] %>%  as.vector()
+time_select <- sprintf("%02d:00", Sys.time() %>% lubridate::hour())
 
 get_tz_day <- function(day, time_utc, timezone){
   if(length(day) > 1 ){
@@ -79,6 +85,8 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
   
   assign("master_time", master, globalenv())
   master <- master %>% 
+    mutate(authors = str_replace(authors, "Cohen, A., J., Russo, F. A., Ilari, B., Gudmundsdottir, H.R., Beynon, C., Ludke, K., M., Heydon, R., Fancourt, D.", 
+                                 "Cohen, A. J.; Russo, F. A.; Ilari, B.; Gudmundsdottir, H.R.; Beynon, C.; Lüdke, K. M.; Heydon, R.; Fancourt, D.")) %>% 
     mutate(authors = str_replace(authors, "\\([0-9,]+\\)", "")) %>% 
     mutate(authors = str_replace(authors, "Fink, Lauren K.", "XXXXX")) %>% 
     mutate(authors = str_replace(authors, "Fink, Lauren", "Fink, Lauren K.")) %>% 
@@ -110,6 +118,31 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
     mutate(theme_cleaned = str_replace(theme, "\\([A-Z]{1}\\)", "") %>% 
              str_replace("\\\r\\\n", " ") %>% 
              str_replace("\\[[a-zA-Z ]+\\]", "") %>% trimws())
-  
+  master <- master %>% 
+    group_by(abstract_id) %>% 
+    mutate(n_auth = n()) %>% 
+    ungroup()
+  master <- add_theme_cats(master) %>% apply_full_name_patches(patch_file = "full_name_patches.xlsx")
+  load("collab_data.rda")
   assign("master", master, globalenv())
+}
+
+apply_full_name_patches <- function(data, patch_file){
+  patches <- readxl::read_xlsx(patch_file) %>% filter(!is.na(real_name))
+  for(i in 1:nrow(patches)){
+    data[data$full_name == patches[i,]$name,]$full_name <-  patches[i,]$real_name
+  }
+  data
+}
+
+add_theme_cats <- function(data, theme_file = "themes.xlsx"){
+  theme_cats <- readxl::read_xlsx(theme_file) 
+
+  ret <- data %>% left_join(theme_cats, by = "theme_cleaned" )
+  assertthat::assert_that(nrow(ret) == nrow(data))
+  ret
+}
+
+filter_author <- function(data = master, author = ""){
+  data %>% filter(str_detect(full_name, author))
 }

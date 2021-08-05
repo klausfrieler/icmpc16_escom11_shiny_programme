@@ -8,62 +8,35 @@
 #
 library(tidyverse)
 library(DT)
+library(r2d3)
 library(shiny)
 source("utils.R")
+source("stats.R")
+source("networks.R")
 setup_workspace()
 
-time_strings <- union(master$time_utc, 
-                      union(master$time_cest, union(master$time_bst, 
-                                                    union(master$time_aest, master$time_cdt)))) %>% 
-    sort()
-
-# Define UI for application that draws a histogram
 ui <- fluidPage(
-
-    # Application title
-    titlePanel("ICMPC16/ESCOM11 Progamme"),
-
-    # Sidebar with a slider input for number of bins 
+    
+    # App title ----
+    titlePanel(
+        h1("ICMPC16/ESCOM11 Stats"), 
+        windowTitle = "ICMPC/ESCOM"
+    ),
+    # Sidebar layout with flowLayout input and output definitions ----
     sidebarLayout(
         sidebarPanel(
-            selectInput(inputId = "filter_name", 
-                        label = "Author",
-                        choices = c("All", sort(unique(master$full_name))), selected = "All",
+            # Input: Select information ----
+            selectInput(inputId = "stats_type", 
+                        label = "Statistic",
+                        choices = c("Basic", "Author", "Theme (Original)", "Theme (Categorized)"), selected = "Basic",
+                        multiple = F, selectize = F),
+            selectInput(inputId = "highlight", 
+                        label = "Highlight Author",
+                        choices = c("", sort(unique(master$full_name))), selected = "",
                         multiple = F, selectize = T),
-            selectInput(inputId = "first_author", 
-                        label = "First Author",
-                        choices = c("All", sort(unique(master$first_author))), selected = "All",
-                        multiple = F, selectize = T),
-            selectInput(inputId = "theme_cleaned", 
-                        label = "Theme",
-                        choices = c("All", sort(unique(master$theme_cleaned))), selected = "All",
-                        multiple = F, selectize = T),
-            selectInput(inputId = "slot_type", 
-                        label = "Slot Type",
-                        choices = c("All", sort(unique(master$slot_type_long))), selected = "All",
-                        multiple = F, selectize = T),
-            selectInput(inputId = "day", 
-                        label = "Day",
-                        choices = c("All", unique(days)), selected = "All",
-                        multiple = F, selectize = T),
-            selectInput(inputId = "time", 
-                        label = "Time",
-                        choices = c("All", time_strings[c(9:24, 1:8)]), selected = "All",
-                        multiple = F, selectize = T),
-            # selectInput(inputId = "hub", 
-            #             label = "Time Hub",
-            #             choices = c("All", unique(master$hub)), selected = "All",
-            #             multiple = F, selectize = T),
-            selectInput(inputId = "time_zone", 
-                        label = "Time Zone",
-                        choices = tz, selected = "time_utc",
-                        multiple = F, selectize = T),
-            selectInput(inputId = "abstract_id", 
-                        label = "Abstract ID",
-                        choices = c("All", sort(na.omit(unique(master$abstract_id)))), selected = "All",
-                        multiple = F, selectize = T),
+            
             p(
-                "ICMPC16/ESCOM11 Navigator v0.5", 
+                "ICMPC16/ESCOM11 Stats v0.1", 
                 shiny::tags$br(), 
                 shiny::tags$br(), 
                 "Author: Klaus Frieler", 
@@ -80,79 +53,73 @@ ui <- fluidPage(
                 "Powered by",
                 shiny::tags$br(),
                 shiny::a(href = "http://www.music-psychology.de/",
-                "Deutsche Gesellschaft für Musikspsychologie", target = "_blank"),
-                shiny::tags$br(),
-                shiny::tags$br(), 
-                "Hint: All drop boxes have incremental search functions. Use also the table search.",
-                shiny::tags$br(),
-                shiny::tags$br(), 
-                "Stay tuned for further updates. Have fun!",
+                         "Deutsche Gesellschaft für Musikspsychologie", target = "_blank"),
                 style = "font-size: 10pt; display: block"
             ),
             width = 2
-            
         ),
-
-        # Show a plot of the generated distribution
+        
+        # Main panel for displaying outputs ----
         mainPanel(
-            DT::DTOutput("programme")
-        )
-    )
-)
-setup_workspace()
-# Define server logic required to draw a histogram
-server <- function(input, output) {
+            tabsetPanel(type = "tabs",
+                        #tabPanel("Introduction", htmlOutput("introduction")),
+                        tabPanel("Stats", 
+                                 DT::DTOutput("stats")
+                                 
+                                 ),
+                        tabPanel("Network", 
+                                 forceNetworkOutput("collab_network", height = "1000px"))
+                        )
 
-    output$programme <- renderDataTable({
+            )
+        )
+        
+    )
+
+
+
+# Define server logic required to draw a histogram
+server <- function(input, output, session) {
+
+    output$stats <- renderDataTable({
         # generate bins based on input$bins from ui.R
         #browser()
-        data <- master
-        day_zone <- str_replace(input$time_zone, "time_", "day_")
-        
-        if(input$day != "All"){
-            data <- data %>% 
-                filter(!!sym(day_zone) %in% input$day) 
+        data <- NULL
+        if(input$stats_type == "Basic"){
+            data <- get_basic_stats(master)
         }
-        if(input$time != "All"){
-            data <- data %>% 
-                mutate(hours = substr(!!sym(input$time_zone), 1, 2)) %>% 
-                filter(hours %in% substr(input$time, 1, 2)) 
+        if(input$stats_type == "Author"){
+            data <- get_author_stats(master) %>% 
+            arrange(desc(n_paper)) %>% 
+                set_names("Name", 
+                          "Papers", 
+                          "First Authored", 
+                          "Last Authored", 
+                          "Middle Authored",
+                          "Themes (Original)",
+                          "Themes (Categorized)",
+                          "Thematic Diversity (Original)",
+                          "Thematic Diversity (Categorized)",
+                          "Co-Workers",
+                          "Mean Co-Workers/Paper",
+                ) %>% select(-`Themes (Original)`, -`Thematic Diversity (Original)` )
         }
-        if(input$filter_name != "All"){
-            data <- data %>% 
-                filter(full_name %in% input$filter_name) 
+        if(input$stats_type == "Theme (Categorized)"){
+            data <- get_theme_stats(master) %>% 
+                arrange(desc(n_papers)) %>% 
+                set_names("Theme (Categorized)", "Papers", "Authors", "Mean Author/Paper")
         }
-        if(input$first_author != "All"){
-            data <- data %>% 
-                filter(first_author %in% input$first_author) 
+        if(input$stats_type == "Theme (Original)"){
+            data <- get_theme_stats(master, "theme_cleaned") %>% 
+                arrange(desc(n_papers)) %>% 
+                set_names("Theme (Original)", "Papers", "Authors", "Mean Author/Paper")
         }
-        # if(input$hub != "All"){
-        #     data <- data %>% 
-        #         filter(hub %in% input$hub) 
-        # }
-        if(input$theme_cleaned != "All"){
-            data <- data %>% 
-                filter(theme_cleaned %in% input$theme_cleaned) 
-        }
-        if(input$slot_type != "All"){
-            data <- data %>% filter(slot_type_long %in% input$slot_type) 
-            
-        }
-        if(input$abstract_id != "All"){
-            browser()
-            data <- data %>% filter(abstract_id %in% input$abstract_id) 
-            
-        }
-        data %>% 
-            select(input$time_zone, !starts_with("time")) %>% 
-            select(day_zone, !starts_with("day")) %>% 
-            distinct(authors, title, .keep_all = T) %>% 
-            select(-theme) %>% 
-            mutate(strand = as.integer(strand)) %>% 
-            select(day_zone, input$time_zone, type = slot_type_long, 
-                   theme = theme_cleaned, authors, title, strand, room, order, abstract_id)
-            #select(-day, day = real_day, -full_name, -first_author, -last_author, -hub, -theme, theme = theme_cleaned, -slot_type, type = slot_type_long, -last_name, -poster_slot, -country)
+        data %>% mutate_if(is.numeric, round, 2)
     }, options = list(lengthMenu = list(c(25, 50,  -1), c("25", "50",  "All"))))
+    output$collab_network <- renderForceNetwork({
+        d3n <- get_network(master, author  = input$highlight, set_globals = F, format = "d3")
+        plot_D3_network(d3n, file = NULL)
+    })
 }
 
 # Run the application 
