@@ -10,11 +10,36 @@ library(tidyverse)
 library(DT)
 library(r2d3)
 library(shiny)
+library(shinythemes)
 source("utils.R")
 source("stats.R")
 source("networks.R")
 setup_workspace()
 
+impressum <- function(){
+    p(
+        "ICMPC16/ESCOM11 Stats v0.2", 
+        shiny::tags$br(), 
+        shiny::tags$br(), 
+        "Author: Klaus Frieler", 
+        shiny::tags$br(), 
+        shiny::a(href = "https://www.aesthetics.mpg.de/en.html", 
+                 "Max Planck Institute for Empirical Aesthetics, Frankfurt/M, Germany", 
+                 target = "_blank"),
+        shiny::tags$br(), 
+        shiny::tags$br(),
+        "Data provided by", 
+        shiny::a(href = "https://m-w-w.github.io/", "Michael Weiss", target = "_blank"), 
+        shiny::tags$br(),
+        shiny::tags$br(), 
+        "Powered by",
+        shiny::tags$br(),
+        shiny::a(href = "http://www.music-psychology.de/",
+                 "Deutsche Gesellschaft für Musikspsychologie", target = "_blank"),
+        style = "font-size: 10pt; display: block"
+    )
+    
+}
 ui <- fluidPage(
     
     # App title ----
@@ -34,28 +59,7 @@ ui <- fluidPage(
                         label = "Highlight Author",
                         choices = c("", sort(unique(master$full_name))), selected = "",
                         multiple = F, selectize = T),
-            
-            p(
-                "ICMPC16/ESCOM11 Stats v0.1", 
-                shiny::tags$br(), 
-                shiny::tags$br(), 
-                "Author: Klaus Frieler", 
-                shiny::tags$br(), 
-                shiny::a(href = "https://www.aesthetics.mpg.de/en.html", 
-                         "Max Planck Institute for Empirical Aesthetics, Frankfurt/M, Germany", 
-                         target = "_blank"),
-                shiny::tags$br(), 
-                shiny::tags$br(),
-                "Data provided by", 
-                shiny::a(href = "https://m-w-w.github.io/", "Michael Weiss", target = "_blank"), 
-                shiny::tags$br(),
-                shiny::tags$br(), 
-                "Powered by",
-                shiny::tags$br(),
-                shiny::a(href = "http://www.music-psychology.de/",
-                         "Deutsche Gesellschaft für Musikspsychologie", target = "_blank"),
-                style = "font-size: 10pt; display: block"
-            ),
+            impressum(),
             width = 2
         ),
         
@@ -76,7 +80,71 @@ ui <- fluidPage(
         
     )
 
-
+ui_alt <-   
+    shiny::shinyUI(
+    navbarPage(
+        title = "ICMPC16/ESCOM11 Stats", 
+        theme = shinytheme("spacelab"),
+        id = "tabs",
+        tabPanel(
+            "Stats",
+            sidebarLayout(
+                sidebarPanel(
+                    # Input: Select information ----
+                    selectInput(inputId = "stats_type", 
+                                label = "Statistic",
+                                choices = c("Basic", "Author", "Theme (Original)", "Theme (Categorized)"), selected = "Basic",
+                                multiple = F, selectize = F),
+                    impressum(),
+                    width = 2
+                ),
+                
+                # Main panel for displaying outputs ----
+                mainPanel(
+                    DT::DTOutput("stats")
+                    )
+                    
+                )
+            ),
+        tabPanel(
+            "Network",
+            sidebarLayout(
+                sidebarPanel(
+                    # Input: Select information ----
+                    selectInput(inputId = "subset", 
+                                label = "Subnetwork",
+                                choices = c("All", "Core", "Rim"), selected = "All",
+                                multiple = F, selectize = T),
+                    selectInput(inputId = "highlight", 
+                                label = "Highlight Author",
+                                choices = c("", sort(unique(master$full_name))), selected = "",
+                                multiple = F, selectize = T),
+                    selectInput(inputId = "charge", 
+                                label = "Node Charge",
+                                choices = seq(1, 5)*(-60), selected = "-120",
+                                multiple = F, selectize = F),
+                    selectInput(inputId = "link_distance", 
+                                label = "Link Distance",
+                                choices = seq(1, 5)*10, selected = "20",
+                                multiple = F, selectize = F),
+                    selectInput(inputId = "font_size", 
+                                label = "Font Size",
+                                choices = seq(1, 10)*2 + 12, selected = "24",
+                                multiple = F, selectize = F),
+                    selectInput(inputId = "opacity", 
+                                label = "Opacity",
+                                choices = seq(0, 1, .1), selected = "0.1",
+                                multiple = F, selectize = F),
+                    impressum(),
+                    width = 2
+                ),
+                
+                # Main panel for displaying outputs ----
+                mainPanel(forceNetworkOutput("collab_network", height = "1000px"))
+            )
+        )))
+            
+        
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
@@ -117,10 +185,19 @@ server <- function(input, output, session) {
         data %>% mutate_if(is.numeric, round, 2)
     }, options = list(lengthMenu = list(c(25, 50,  -1), c("25", "50",  "All"))))
     output$collab_network <- renderForceNetwork({
-        d3n <- get_network(master, author  = input$highlight, set_globals = F, format = "d3")
-        plot_D3_network(d3n, file = NULL)
+        d3n <- get_network(master, 
+                           author  = input$highlight, 
+                           set_globals = F, 
+                           format = "d3", 
+                           subset = tolower(input$subset)) 
+        plot_D3_network(d3n, 
+                        charge = as.numeric(input$charge),
+                        linkDistance = as.numeric(input$link_distance),
+                        fontSize = as.numeric(input$font_size),
+                        opacityNoHover = as.numeric(input$opacity),
+                        file = NULL)
     })
 }
 
 # Run the application 
-shinyApp(ui = ui, server = server)
+shinyApp(ui = ui_alt, server = server)

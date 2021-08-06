@@ -39,6 +39,16 @@ get_collab_matrix <- function(data){
            total_weight = sum(weight, na.rm = T)/2)  %>% 
     ungroup()
 }
+get_collab_adj_matrix <- function(collab){
+  collab_adj <- collab %>% 
+    select(author1, author2, weight) %>% 
+    pivot_wider(names_from = author2, values_from = weight, values_fn = sum) %>%
+    column_to_rownames("author1") %>% 
+    as.matrix() 
+  collab_adj <- collab_adj[order(row.names(collab_adj)),order(colnames(collab_adj))] 
+  collab_adj[is.na(collab_adj)] <- 0
+  collab_adj
+}
 
 get_coworkers <- function(collab, author = "", degree = 1, exclude = NULL){
   messagef("Finding coworker for %s (degree = %d)", author, degree)
@@ -84,7 +94,8 @@ get_network <- function(master,
                         author = "Frieler, Klaus", 
                         recalc = F,
                         set_globals = F,
-                        format = "d3"){
+                        format = "d3", 
+                        subset = "all"){
   if(recalc){
     if(!is.na(sample_n)){
       p <- unique(master$abstract_id) %>% sample(sample_n)
@@ -102,9 +113,20 @@ get_network <- function(master,
   else{
     load("collab_data.rda")
   }
-  ig_network <- graph_from_adjacency_matrix(collab_adj, mode = "undirected", weighted = T)
+  #browser()
+  adj_mat <- collab_adj
+  collab_df <- collab
+  if(subset == "core"){
+    adj_mat <- collab_adj_core
+    collab_df <- collab_core
+  }
+  if(subset == "rim"){
+    adj_mat <- collab_adj_rim
+    collab_df <- collab_rim
+  }
+  ig_network <- graph_from_adjacency_matrix(adj_mat, mode = "undirected", weighted = T)
   d3_network <- igraph_to_networkD3(ig_network)
-  highlight <- get_coworkers(collab, author) %>% 
+  highlight <- get_coworkers(collab_df, author) %>% 
     pull(name) %>% 
     unique()
   #browser()
@@ -134,7 +156,8 @@ plot_D3_network <-function(d3_network,
                            file = "network.html",
                            charge = -120, 
                            linkDistance = 20,
-                           fontSize = 24){
+                           fontSize = 24,
+                           opacityNoHover = .1){
   sn <- forceNetwork(
     Links = d3_network$links, 
     Nodes = d3_network$nodes, 
@@ -143,7 +166,7 @@ plot_D3_network <-function(d3_network,
     NodeID = 'name', 
     Group = "group", 
     fontSize = fontSize,
-    opacityNoHover = .1,
+    opacityNoHover = opacityNoHover,
     bounded = F,
     zoom = T,
     charge = charge,
