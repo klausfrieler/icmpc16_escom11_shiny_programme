@@ -40,6 +40,9 @@ impressum <- function(){
         shiny::tags$br(), 
         shiny::tags$br(),
         shiny::a(href = "https://github.com/klausfrieler/icmpc16_escom11_shiny_programme", "On Github", target = "_blank"), 
+        shiny::tags$br(), 
+        shiny::tags$br(),
+        shiny::a(href = "http://testing.musikpsychologie.de/icmpc16_escom11_shiny_programme/", "ICMPC16/ESCOM11 Progamme App", target = "_blank"), 
         style = "font-size: 10pt; display: block"
     )
     
