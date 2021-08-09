@@ -11,6 +11,7 @@ library(DT)
 library(r2d3)
 library(shiny)
 library(shinythemes)
+library(shinyjs)
 source("utils.R")
 source("stats.R")
 source("networks.R")
@@ -55,6 +56,7 @@ ui <-
             "Stats",
             sidebarLayout(
                 sidebarPanel(
+                    shinyjs::useShinyjs(),
                     # Input: Select information ----
                     selectInput(inputId = "stats_type", 
                                 label = "Statistic",
@@ -62,7 +64,7 @@ ui <-
                                 multiple = F, selectize = F),
                     selectInput(inputId = "comnunity_id", 
                                 label = "Community ID",
-                                choices = c("All", unique(community_data$community)), selected = "All",
+                                choices = c("All", sort(as.integer(unique(community_data$community)))), selected = "All",
                                 multiple = T, selectize = T),
                     impressum(),
                     width = 2
@@ -137,6 +139,17 @@ server <- function(input, output, session) {
             updateSelectizeInput(session, "highlight_community", selected = "---")
         }
     })
+    observeEvent(input$stats_type,{
+        if(!is.null(input$stats_type)){
+            if(input$stats_type == "Communities"){
+                shinyjs::enable("comnunity_id")
+            }
+            else{
+                shinyjs::disable("comnunity_id")
+            }
+        }
+    })
+    
     output$stats <- renderDataTable({
         # generate bins based on input$bins from ui.R
         #browser()
