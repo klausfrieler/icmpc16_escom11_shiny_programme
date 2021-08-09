@@ -86,7 +86,7 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
   assign("master_time", master, globalenv())
   master <- master %>% 
     mutate(authors = str_replace(authors, "Cohen, A., J., Russo, F. A., Ilari, B., Gudmundsdottir, H.R., Beynon, C., Ludke, K., M., Heydon, R., Fancourt, D.", 
-                                 "Cohen, A. J.; Russo, F. A.; Ilari, B.; Gudmundsdottir, H.R.; Beynon, C.; Lüdke, K. M.; Heydon, R.; Fancourt, D.")) %>% 
+                                 "Cohen, A. J.; Russo, F. A.; Ilari, B.; Gudmundsdottir, H.R.; Beynon, C.; Ludke, K. M.; Heydon, R.; Fancourt, D.")) %>% 
     mutate(authors = str_replace(authors, "\\([0-9,]+\\)", "")) %>% 
     mutate(authors = str_replace(authors, "Fink, Lauren K.", "XXXXX")) %>% 
     mutate(authors = str_replace(authors, "Fink, Lauren", "Fink, Lauren K.")) %>% 
@@ -123,7 +123,7 @@ setup_workspace <- function(fname = "ICMPC-ESCOM-2021-Programme.csv"){
     mutate(n_auth = n()) %>% 
     ungroup()
   master <- add_theme_cats(master) %>% apply_full_name_patches(patch_file = "full_name_patches.xlsx")
-  load("collab_data.rda")
+  load("collab_data.rda", envir = globalenv())
   assign("master", master, globalenv())
 }
 
@@ -145,4 +145,10 @@ add_theme_cats <- function(data, theme_file = "themes.xlsx"){
 
 filter_author <- function(data = master, author = ""){
   data %>% filter(str_detect(full_name, author))
+}
+
+recalc_all <- function(){
+  setup_workspace()
+  get_network(master, recalc = T, set_globals = T)
+  save_collab_data(collab)
 }
